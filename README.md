@@ -30,7 +30,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Владислав Гоменюк-Great products at great price,форма
 * Василь Яворський -What hand made means to us, write us + contacts
 * Валерія Тихонюк-Blog
-* Вадим-каталог(wallets)
+* Вадим Скрипець-каталог(wallets)
 * Денис Тельпух-request a quote
 
 * Вільні: bags,holders,our story(вся сторінка)
