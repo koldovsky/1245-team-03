@@ -21,7 +21,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
     if (loadedPartialsCount === totalPartials) init();
 });
 ```
-* Петро Розумей-хедер(головний)+хіро, notebooks buy now
+* Петро Розумєй-хедер(головний)+хіро, notebooks buy now
 * Шумило Олексій-футер(головний),why us
 * Богуслав-products,New arrivals, in stock page
 * Микола Циганюк-collections,gallery
