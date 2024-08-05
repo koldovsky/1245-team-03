@@ -31,7 +31,8 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Василь Яворський -What hand made means to us, write us + contacts
 * Валерія Тихонюк-Blog
 * Вадим-каталог(wallets)
+* Денис Тельпух-request a quote
 
-* Вільні: bags,holders,our story(вся сторінка),request a quote
+* Вільні: bags,holders,our story(вся сторінка)
 
 #####Rozumiei Petro
