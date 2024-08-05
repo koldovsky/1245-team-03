@@ -36,3 +36,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Вільні: bags,holders,our story(вся сторінка,5 блоків),кошик
 
 #####Rozumiei Petro
+#####Tsiganuk Mykola
