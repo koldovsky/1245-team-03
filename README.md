@@ -32,5 +32,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Валерія Тихонюк-Blog
 * Вадим-каталог(wallets)
 
-Вільні завдання:bags,holders
+* Вільні: bags,holders,our story(вся сторінка)
+
 #####Rozumiei Petro
