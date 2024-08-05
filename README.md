@@ -33,6 +33,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Вадим Скрипець-каталог(wallets)
 * Денис Тельпух-request a quote
 
-* Вільні: bags,holders,our story(вся сторінка),кошик
+* Вільні: bags,holders,our story(вся сторінка,5 блоків),кошик
 
 #####Rozumiei Petro
