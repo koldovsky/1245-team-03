@@ -27,7 +27,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Микола Циганюк-collections,gallery
 * Щур Саша-gift packs,custom gift pack, custom products,
 * Іван Романюк-custom orders,
-*Владислав Гоменюк-Great products at great price,форма
+* Владислав Гоменюк-Great products at great price,форма
 * Василь Яворський -What hand made means to us, write us + contacts
 * Валерія Тихонюк-Blog
 * Вадим-каталог(wallets)
