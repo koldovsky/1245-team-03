@@ -26,7 +26,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Богуслав-products,New arrivals, in stock page
 * Микола Циганюк-collections,gallery
 * Щур Саша-gift packs,custom gift pack, custom products,
-* Іван Романюк-custom orders
+* Іван Романюк-custom orders+branding process
 * Владислав Гоменюк-Great products at great price,форма
 * Василь Яворський -What hand made means to us, write us + contacts
 * Валерія Тихонюк-Blog
