@@ -1,1 +1,72 @@
-<h2>sadsadas</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Packs</title>
+    <link rel="stylesheet" href="path/to/your/styles.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+    </header>
+  <main>
+    <section class="gift-packs">
+      <h2>Gift Packs</h2>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--prev" aria-label="Previous pack">&#9664;</button>
+        <div class="carousel__track">
+          <article class="carousel__item">
+            <img src="img/gift-packs/the-big-vintage-pack.webp" alt="The Big Vintage Pack" class="carousel__image" />
+            <p class="carousel__caption">The Big Vintage Pack</p>
+          </article>
+          <article class="carousel__item">
+            <img src="img/gift-packs/summer-village-pack.webp" alt="The Summer Village Pack" class="carousel__image" />
+            <p class="carousel__caption">The Summer Village Pack</p>
+          </article>
+          <article class="carousel__item">
+            <img src="img/gift-packs/exotic-leather-pack.webp" alt="Exotic Leather Pack" class="carousel__image" />
+            <p class="carousel__caption">Exotic Leather Pack</p>
+          </article>
+          <article class="carousel__item">
+            <img src="img/gift-packs/floral-pack.webp" alt="The Big Floral Pack" class="carousel__image" />
+            <p class="carousel__caption">The Big Floral Pack</p>
+          </article>
+        </div>
+        <button class="carousel__button carousel__button--next" aria-label="Next pack">&#9654;</button>
+      </div>
+    </section>
+    <section class="custom-gift-pack">
+        <div class="custom-gift-pack__image">
+          <img src="img/gift-packs/Custom Gift Pack Image.webp" alt="Custom Gift Pack Image" />
+        </div>
+        <div class="custom-gift-pack__form">
+          <h2>Custom Gift Pack</h2>
+          <p>You can order a custom gift pack, choosing any of our products. Complete the form below and we will contact you ASAP!</p>
+          <form>
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required />
+  
+            <label for="phone">Phone number*</label>
+            <input type="tel" id="phone" name="phone" required />
+  
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" name="email" required />
+  
+            <label for="preferences">Gift pack preferences</label>
+            <textarea id="preferences" name="preferences"></textarea>
+  
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <!-- Вставь здесь код для подвала, если необходимо -->
+  </footer>
+</body>
+</html>
