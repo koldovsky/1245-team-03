@@ -1,0 +1,51 @@
+<!-- Oleksii Shumylo -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Packs</title>
+
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+    </header>
+    <main>
+      <section class="first_block">
+        <div class="first_block-container">
+          <div class="first_block-image">
+            <img src="img/our-story/hat-notebook.webp" alt="Hat and notebook" />
+          </div>
+          <div class="first_block-text">
+            <p>
+              At Leather Crafties we handcraft stylish leather goods. All our
+              products reflect a modern design in order to make your life easier
+              practically and more appealing visually. We take an individual
+              approach to each of our unique designs. We utilize only the finest
+              quality leather, European linen, and findings to make sure our
+              products will serve you for years to come.
+            </p>
+            <p>All our leather items are handcrafted right here in New York.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></div>
+    </footer>
+  </body>
+</html>

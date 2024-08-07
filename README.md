@@ -22,7 +22,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 });
 ```
 * Петро Розумєй - header (Головний) + Hero, Notebooks + Page BuyNow, блок Notebooks (Page Catalog)
-* Шумило Олексій-футер(головний),why us
+* Шумило Олексій-футер(головний),why us,our-story(first block)
 * Богуслав-products,New arrivals, in stock page
 * Микола Циганюк-collections,gallery
 * Щур Саша-gift packs,custom gift pack, custom products,
