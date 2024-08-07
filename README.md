@@ -38,3 +38,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 #####Rozumiei Petro
 #####Stanishevskyy
 * Tsiganuk Mykola
+* Kozin Volodymyr
