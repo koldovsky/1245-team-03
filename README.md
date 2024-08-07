@@ -39,3 +39,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 #####Stanishevskyy
 * Tsiganuk Mykola
 * Kozin Volodymyr
+* Romaniuk Ivan
