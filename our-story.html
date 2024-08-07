@@ -21,24 +21,11 @@
       ></nav>
     </header>
     <main>
-      <section class="first__block">
-        <div class="first__block-container">
-          <div class="first__block-image">
-            <img src="img/our-story/hat-notebook.webp" alt="Hat and notebook" />
-          </div>
-          <div class="first__block-text">
-            <p>
-              At Leather Crafties we handcraft stylish leather goods. All our
-              products reflect a modern design in order to make your life easier
-              practically and more appealing visually. We take an individual
-              approach to each of our unique designs. We utilize only the finest
-              quality leather, European linen, and findings to make sure our
-              products will serve you for years to come.
-            </p>
-            <p>All our leather items are handcrafted right here in New York.</p>
-          </div>
-        </div>
-      </section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="our-story.first-block.partial.html"
+      ></section>
     </main>
     <footer>
       <div
