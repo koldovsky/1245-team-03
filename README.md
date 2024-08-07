@@ -32,8 +32,9 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 * Валерія Тихонюк-Blog
 * Вадим Скрипець-каталог(wallets)
 * Денис Тельпух-request a quote
+* Катерина Шевченко - bags,holders
 
-* Вільні: bags,holders,our story(вся сторінка,5 блоків),кошик
+* Вільні: our story(вся сторінка,5 блоків),кошик
 
 #####Rozumiei Petro
 #####Stanishevskyy
