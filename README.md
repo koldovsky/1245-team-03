@@ -33,6 +33,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Василь Яворський | What hand made means to us, write us + contacts |
 | Teammate | Валерія Тихонюк | Blog |
 | Teammate | Вадим Скрипець | каталог(wallets) |
-| Teammate | Денис Тельпух | request a quote |
+| Teammate | Денис Теплюх | request a quote |
 | Teammate | Катерина Шевченко | bags,holders |
 | Teammate | Not defined | our story(вся сторінка,5 блоків),кошик |
