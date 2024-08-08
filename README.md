@@ -35,4 +35,5 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Вадим Скрипець | каталог(wallets) |
 | Teammate | Денис Теплюх | request a quote |
 | Teammate | Катерина Шевченко | bags,holders |
-| Teammate | Not defined | our story(вся сторінка,5 блоків),кошик |
+| Teammate | Козін Володимир | our story|
+| Teammate | Not defined | кошик |
