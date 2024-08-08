@@ -21,22 +21,19 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
     if (loadedPartialsCount === totalPartials) init();
 });
 ```
-* Петро Розумєй - header (Головний) + Hero, Notebooks + Page BuyNow, блок Notebooks (Page Catalog)
-* Шумило Олексій-футер(головний),why us
-* Богуслав-products,New arrivals, in stock page
-* Микола Циганюк-collections,gallery
-* Щур Саша-gift packs,custom gift pack, custom products,
-* Іван Романюк-custom orders+branding process
-* Владислав Гоменюк-Great products at great price,форма
-* Василь Яворський -What hand made means to us, write us + contacts
-* Валерія Тихонюк-Blog
-* Вадим Скрипець-каталог(wallets)
-* Денис Тельпух-request a quote
-
-* Вільні: bags,holders,our story(вся сторінка,5 блоків),кошик
-
-#####Rozumiei Petro
-#####Stanishevskyy
-* Tsiganuk Mykola
-* Kozin Volodymyr
-* Romaniuk Ivan
+| role | name | tasks |
+|-------------|-------------|-------------|
+| Teammate | Петро Розумєй | header (Головний) + Hero, Notebooks + Page BuyNow, блок Notebooks (Page Catalog) |
+| >>Teamlead | Шумило Олексій | футер(головний),why us,our-story(first block) |
+| Teammate | Богуслав | products,New arrivals, in stock page |
+| Teammate | Микола Циганюк | collections,gallery |
+| Teammate | Щур Саша | gift packs,custom gift pack, custom products, |
+| Teammate | Іван Романюк | custom orders+branding process |
+| Teammate | Владислав Гоменюк | Great products at great price,форма |
+| Teammate | Василь Яворський | What hand made means to us, write us + contacts |
+| Teammate | Валерія Тихонюк | Blog |
+| Teammate | Вадим Скрипець | каталог(wallets) |
+| Teammate | Денис Теплюх | request a quote |
+| Teammate | Катерина Шевченко | bags,holders |
+| Teammate | Козін Володимир | our story|
+| Teammate | Not defined | кошик |
