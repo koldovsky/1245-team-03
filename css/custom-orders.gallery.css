@@ -1,0 +1,118 @@
+.gallery-custom-orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 10px;
+  background-color: #ebebeb;
+  font-family: "Saira", sans-serif;
+  width: 100%;
+  min-height: 60vw;
+}
+.gallary__inner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+.gallery__heading-wrapper {
+  margin: 30px 0;
+}
+.gallery__heading {
+  color: rgb(33, 32, 32);
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  line-height: 55px;
+}
+.gallery__image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.gallery__image {
+  width: 85%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.gallery__choose-buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+.gallery__choose-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__choose-buttons_button {
+  background-color: #b8b8b8;
+  border-radius: 50%;
+  border: none;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+.gallery__choose-buttons_click-zone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.gallery__choose-buttons_click-zone:hover .gallery__choose-buttons_button {
+  background-color: black;
+}
+.gallery__arrow-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 15px);
+}
+.gallery__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+}
+.gallery__arrow-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.gallery__arrow-prev-button {
+  transform: rotateY(180deg);
+}
+.arrow-svg_1j4 {
+  width: 30px;
+}
+@media screen and (max-width: 760px) {
+  .gallery__image {
+    width: 70%;
+  }
+  .gallery__heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .gallery__arrow {
+    width: 30px;
+  }
+  .arrow-svg_1j4 {
+    width: 20px;
+  }
+}
+.hidden{
+    display: none;
+}

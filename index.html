@@ -10,6 +10,11 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"
         integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
@@ -32,6 +37,15 @@
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.gift-packs.partial.html"></section>
         <!-- Sasha end-->
 
+        <!-- Romaniuk Svan start -->
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.custom-orders.partial.html"></section>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.custom-orders-button.partial.html"></div>
+        <!-- Romaniuk Svan end -->
+
+        <!--Denys start-->
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.request-quote.partial.html"></section>
+        <!--Denys end-->
+
         <!-- Vlad start -->
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.great-products.partial.html">
         </section>
@@ -49,6 +63,9 @@
         <!-- Valeriia start-->
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.blog.partial.html"></section>
         <!-- Valeriia end -->
+        <!-- Vlad start-->
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.subscribe.partial.html"></section>
+        <!-- Vlad end -->
     </main>
     <footer>
         <!-- Oleksii full footer -->
