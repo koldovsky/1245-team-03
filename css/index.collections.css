@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 105vh;
-    color: white;
+    color: var(--collections-text);
     padding: 60px 0 20px;
     overflow: hidden;
     font-family: 'Saira', sans-serif;
@@ -97,7 +97,7 @@
 }
 
 .collections__link-container {
-    border-color: white;
+    border-color: var(--collections-link-container-border);
     border-style: solid;
     border-width: 1.6px;
     border-radius: 20px;
@@ -106,18 +106,18 @@
 }
 
 .collections__link-container:hover {
-    background-color: white;
+    background-color: var(--collections-link-container-background);
     text-decoration: none;
 }
 
 .collections__link-container:hover .collections__link-inner-text {
-    color: black;
+    color: var(--collections-link-text-hover);
 }
 
 .collections__link-inner-text {
     padding: 7px 25px;
     transition: .3s;
-    color: white;
+    color: var(--collections-text);
     font-family: 'Merriweather', serif;
     font-size: 18px;
     width: 100%;

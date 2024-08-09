@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 15px 0 10px;
-  background-color: #ebebeb;
+  background-color: var(--custom-orders-galery-background);
   font-family: "Saira", sans-serif;
   width: 100%;
   min-height: 60vw;
@@ -21,7 +21,7 @@
   margin: 30px 0;
 }
 .gallery__heading {
-  color: rgb(33, 32, 32);
+  color: var(--custom-orders-gallery-heading);
   font-size: 50px;
   font-weight: 400;
   letter-spacing: -1.5px;
@@ -51,7 +51,7 @@
   align-items: center;
 }
 .gallery__choose-buttons_button {
-  background-color: #b8b8b8;
+  background-color: var(--custom-orders-gallery-button);
   border-radius: 50%;
   border: none;
   height: 10px;
@@ -66,7 +66,7 @@
   cursor: pointer;
 }
 .gallery__choose-buttons_click-zone:hover .gallery__choose-buttons_button {
-  background-color: black;
+  background-color: var(--custom-orders-gallery-button-hover);
 }
 .gallery__arrow-buttons {
   display: flex;
@@ -88,7 +88,7 @@
   align-items: center;
   border: none;
   cursor: pointer;
-  background-color: #ebebeb;
+  background-color: var(--custom-orders-galery-background);
 }
 .gallery__arrow-prev-button {
   transform: rotateY(180deg);
