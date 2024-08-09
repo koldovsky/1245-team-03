@@ -1,0 +1,118 @@
+.header__navbar {
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__logo-link {
+    text-align: center;
+    width: 100%;
+}
+
+.header__logo-text {
+    font-family: Saira, sans-serif;
+    font-size: 34px;
+    color: #212020;
+    padding: 30px 15px;
+}
+
+.header__navbar-menu {
+    width: 100%;
+    color: #212020;
+    padding: 10px 15px 50px;
+}
+
+.header__menu-lists {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu-item {
+    position: relative;
+    padding: 10px 15px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #212020;
+    font-family: Merriweather, serif;
+    font-size: 15px;
+    position: relative;
+}
+
+.header__menu-link:hover {
+    color: #e04141;
+    text-decoration: none;
+}
+
+.header__menu-link:hover::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #e04141;
+    border-radius: 50%;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__menu-drop {
+    text-decoration: none;
+    color: #212020;
+    font-family: Merriweather, serif;
+    font-size: inherit;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 10;
+    min-width: 150px;
+    text-align: center;
+}
+
+.header__menu-item:hover .header__menu-drop {
+    display: block;
+}
+
+.header__drop-window {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.header__drop-window:hover {
+    color: #e04141;
+    text-decoration: none;
+
+}
+
+.header__menu-link:hover::after,
+.header__menu-item:hover .header__menu-link::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #e04141;
+    border-radius: 50%;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
