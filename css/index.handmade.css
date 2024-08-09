@@ -1,0 +1,26 @@
+.handmade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 4%;
+  background-color: #ffffff;
+  border: 0.05em solid red;
+  font-family: "Saira", sans-serif;
+}
+
+.handmade__text {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: calc(-0.034 * 1em);
+  line-height: 1.1;
+  text-align: center;
+  color: #212020;
+}
+
+.handmade__content-picture {
+    object-fit: cover;
+    justify-content: center;
+    object-position: 0 -100px;
+    width: 100%;
+    height: 50%;
+}
