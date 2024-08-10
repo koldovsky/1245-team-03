@@ -85,7 +85,7 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  top: calc(50% + 10px);
+  top: calc(50% + 5px);
 }
 
 .gallery__arrow {
@@ -136,6 +136,6 @@
     width: 30px;
   }
   .gallery__arrow-buttons {
-    top: calc(50% + 15px);
+    top: calc(50% + 7.5px);
   }
 }
