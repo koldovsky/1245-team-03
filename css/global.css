@@ -1,9 +1,10 @@
-*,*::after,*::before{
+*, *::after, *::before {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --collections-text: white;
     --collections-item-heading:#e04141;
     --collections-link-container-border: white;
@@ -15,7 +16,8 @@
     --custom-orders-gallery-button-hover: black;
     scroll-behavior: smooth;
 }
-img{
+
+img {
     display: block;
-    width:100%
+    width:100%;
 }
