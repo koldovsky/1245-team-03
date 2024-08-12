@@ -119,17 +119,18 @@ h2 {
 } 
   */
 
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 /* Загальний стиль футера */
 .footer__container {
   background-color: #212020;
   display: flex;
   flex-direction: row;
-  height: 432px;
+  height: auto;
   justify-content: space-around;
-  padding: 20px;
+  padding: 150px;
   align-items: center;
   position: relative;
-  padding: 150px;
 }
 
 /* Стилі для заголовку та тексту */
@@ -137,6 +138,7 @@ h2 {
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .footer__title {
@@ -144,8 +146,8 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: Saira, sans-serif;
-  font-size: 24px;
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
 }
 a {
   color: #fff;
@@ -161,12 +163,12 @@ a:hover {
   line-height: 1.5;
   margin-bottom: 20px;
   font-family: "Merriweather", serif;
-  font-size:16px;
+  font-size: 16px;
 }
 
 /* Стилі для меню */
 .footer__menu-container {
-  flex: 2;
+  flex: 1;
   display: flex;
   justify-content: space-between;
 }
@@ -202,8 +204,9 @@ a:hover {
   color: #fff;
   font-size: 18px;
   margin-bottom: 20px;
-  font-family: Saira, sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 26px;
+  font-weight: 400;
 }
 
 .footer__social-icons-container {
@@ -217,6 +220,7 @@ a:hover {
   padding: 0;
   display: flex;
   gap: 20px;
+  column-gap: 5px;
 }
 
 .footer__social-icons-item {
@@ -228,7 +232,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
 }
 
 .social-icon {
@@ -256,16 +259,17 @@ a:hover {
   color: #fff;
   font-size: 14px;
   position: absolute;
-  bottom: 10px;
-  left: 20px;
 }
 
 .footer__bottom-rights-container {
   color: #fff;
   font-size: 14px;
   position: absolute;
-  bottom: 10px;
-  right: 20px;
+}
+.footer__credits,
+.footer__rights {
+  font-size: 12px;
+  font-family: Merriweather, serif;
 }
 /* Мобільна версія */
 @media (max-width: 800px) {
