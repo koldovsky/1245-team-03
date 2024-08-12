@@ -36,4 +36,5 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Денис Теплюх | request a quote |
 | Teammate | Катерина Шевченко | bags,holders |
 | Teammate | Козін Володимир | our story|
+| Teammate | Тарас Щербан | #StandwithUkraine, Awards|
 | Teammate | Not defined | кошик |
