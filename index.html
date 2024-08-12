@@ -1,82 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leather Crafties</title>
-    <link rel="shortcut icon" href="img/header/shortcut-icon-site.png" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10"
-        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link
+      rel="shortcut icon"
+      href="img/header/shortcut-icon-site.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
-        <!-- Petro -->
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></div>
-        <!-- Petro -->
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <!-- Petro -->
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.header-hero.partial.html"
+      ></div>
+      <!-- Petro -->
     </header>
     <main>
-        <!-- Mykola start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.collections.partial.html"></section>
-        <!-- Mykola end -->
+      <!-- Mykola start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.collections.partial.html"
+      ></section>
+      <!-- Mykola end -->
 
-        <!--Bohuslav start-->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.products.partial.html"></section>
-        <!--Bohuslav end-->
+      <!--Bohuslav start-->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.products.partial.html"
+      ></section>
+      <!--Bohuslav end-->
 
-        <!-- Sasha start-->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.gift-packs.partial.html"></section>
-        <!-- Sasha end-->
+      <!-- Sasha start-->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.gift-packs.partial.html"
+      ></section>
+      <!-- Sasha end-->
 
-        <!-- Romaniuk Svan start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.custom-orders.partial.html"></section>
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.custom-orders-button.partial.html"></div>
-        <!-- Romaniuk Svan end -->
+      <!-- Romaniuk Svan start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.custom-orders.partial.html"
+      ></section>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.custom-orders-button.partial.html"
+      ></div>
+      <!-- Romaniuk Svan end -->
 
-        <!--Denys start-->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.request-quote.partial.html"></section>
-        <!--Denys end-->
+      <!--Denys start-->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.request-quote.partial.html"
+      ></section>
+      <!--Denys end-->
 
-        <!-- Vlad start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.great-products.partial.html">
-        </section>
-        <!-- Vlad end -->
+      <!-- Vlad start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.great-products.partial.html"
+      ></section>
+      <!-- Vlad end -->
 
-        <!-- Oleksii start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.why-us.partial.html"></section>
-        <!-- Oleksii end -->
+      <!-- Oleksii start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.why-us.partial.html"
+      ></section>
+      <!-- Oleksii end -->
 
-        <!-- Vasyl start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.handmade.partial.html"></section>
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.instagram.partial.html"></section>
-        <!-- Vasyl end -->
+      <!-- Vasyl start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.handmade.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.instagram.partial.html"
+      ></section>
+      <!-- Vasyl end -->
 
-        <!-- Taras start -->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.stand-with-ukraine.partial.html"></section>
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.awards.partial.html"></section>
-        <!-- Taras end -->
+      <!-- Taras start -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.stand-with-ukraine.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.awards.partial.html"
+      ></section>
+      <!-- Taras end -->
 
-        <!-- Valeriia start-->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.blog.partial.html"></section>
-        <!-- Valeriia end -->
+      <!-- Valeriia start-->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.blog.partial.html"
+      ></section>
+      <!-- Valeriia end -->
 
-        <!-- Vlad start-->
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.subscribe.partial.html"></section>
-        <!-- Vlad end -->
+      <!-- Vlad start-->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.subscribe.partial.html"
+      ></section>
+      <!-- Vlad end -->
     </main>
     <footer>
-        <!-- Oleksii full footer -->
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></div>
+      <!-- Oleksii full footer -->
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></div>
     </footer>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
