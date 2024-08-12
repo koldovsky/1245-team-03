@@ -105,12 +105,12 @@
   border-radius: 20px;
   transition: 0.3s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .collections__link-container:hover,
 .collections__link-container:active {
   background-color: var(--collections-link-container-background);
-  text-decoration: none;
   .collections__link-inner-text {
     color: var(--collections-link-text-hover);
   }
