@@ -5,9 +5,9 @@
 @import "index.handmade.css";
 @import "index.header-hero.css";
 @import "notebooks.css";
-@import "custom-orders.gallery.css";
 @import "index.awards.css";
 @import "index.support.css";
 @import "index.why-us.css";
 @import "index.gift-packs.css";
 @import "index.blog.partial.css";
+@import "custom-orders.css";
