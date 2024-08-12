@@ -7,18 +7,31 @@
 }
 
 :root {
+  /*colors*/
   --collections-text: white;
   --collections-item-heading: #e04141;
   --collections-link-container-border: white;
   --collections-link-container-background: white;
   --collections-link-text-hover: black;
+
+  --products-background-color: #ebebeb;
+  --products-text-color: #212020;
+  --products-card-background-color: #fff;
+  --products-card-price-color: #e04141;
+
   --custom-orders-galery-background: #ebebeb;
   --custom-orders-gallery-heading: rgb(33, 32, 32);
   --custom-orders-gallery-button: #b8b8b8;
   --custom-orders-gallery-button-hover: black;
+
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;
-  --why-us-paragraph-color:rgb(194, 194, 194);
+
+  --why-us-paragraph-color: rgb(194, 194, 194);
+
+  /*fonts*/
+  --title-font-family: "Saira", sans-serif;
+  --text-font-family: "Merriweather", serif;
   scroll-behavior: smooth;
 }
 

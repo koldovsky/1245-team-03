@@ -25,7 +25,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 |-------------|-------------|-------------|
 | Teammate | Петро Розумєй | header (Головний) + Hero, Notebooks + Page BuyNow, блок Notebooks (Page Catalog) |
 | >>Teamlead | Шумило Олексій | футер(головний),why us,our-story(first block) |
-| Teammate | Богуслав | products,New arrivals, in stock page |
+| Teammate | Богуслав Станішевський | products,New arrivals, in stock page |
 | Teammate | Микола Циганюк | collections,gallery |
 | Teammate | Щур Саша | gift packs,custom gift pack, custom products, |
 | Teammate | Іван Романюк | custom orders+branding process |
