@@ -1,23 +1,27 @@
-*, *::after, *::before {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --collections-text: white;
-    --collections-item-heading:#e04141;
-    --collections-link-container-border: white;
-    --collections-link-container-background: white;
-    --collections-link-text-hover: black;
-    --custom-orders-galery-background: #ebebeb;
-    --custom-orders-gallery-heading: rgb(33, 32, 32);
-    --custom-orders-gallery-button: #b8b8b8;
-    --custom-orders-gallery-button-hover: black;
-    scroll-behavior: smooth;
+  --collections-text: white;
+  --collections-item-heading: #e04141;
+  --collections-link-container-border: white;
+  --collections-link-container-background: white;
+  --collections-link-text-hover: black;
+  --custom-orders-galery-background: #ebebeb;
+  --custom-orders-gallery-heading: rgb(33, 32, 32);
+  --custom-orders-gallery-button: #b8b8b8;
+  --custom-orders-gallery-button-hover: black;
+  --global-footer-background: #212020;
+  --global-footer-icon: #ff4e4e;
+  scroll-behavior: smooth;
 }
 
 img {
-    display: block;
-    width:100%;
+  display: block;
+  width: 100%;
 }
