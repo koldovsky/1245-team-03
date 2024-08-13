@@ -8,6 +8,19 @@
 
 :root {
   /*colors*/
+  --header-nav-text-logo: #212020;
+  --header-nav-background-color: #f8f9fa;
+  --header-nav-text-menu: #212020;
+  --header-nav-link-hover: #e04141;
+  --header-nav-burger-menu: #212020;
+  --header-nav-box-shadow: #000000;
+
+  --header-hero-background-color: #f1f1f1;
+  --header-hero-button: #e04141;
+  --header-hero-button-click: #000000;
+  --header-hero-button-text: #ffffff;
+  --header-hero-text-color: #212020;
+
   --collections-text: white;
   --collections-item-heading: #e04141;
   --collections-link-container-border: white;
