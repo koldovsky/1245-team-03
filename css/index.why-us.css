@@ -8,7 +8,7 @@
   color: var(--collections-text);
   padding: 80px 0 90px;
   overflow: hidden;
-  font-family: "Saira", sans-serif;
+  font-family: var(--title-font-family);
   min-height: auto;
   box-sizing: border-box;
 }
@@ -18,8 +18,8 @@
 }
 
 .why__us-title {
-  font-size: 50px;
-  font-family: "Saira", sans-serif;
+  font-size: 30px; 
+  font-family: var(--title-font-family);
   font-weight: 400;
   text-align: center;
   margin: 0;
@@ -27,8 +27,7 @@
 
 .why__us-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column; 
   justify-content: center;
   padding: 0 15px;
   margin: auto;
@@ -48,6 +47,7 @@
   width: 100px;
   height: 100px;
 }
+
 .carousel-caption {
   position: static;
   padding-top: 20px;
@@ -59,7 +59,7 @@
 }
 
 .why__us-item-title {
-  font-size: 24px;
+  font-size: 20px; 
 }
 
 .carousel-caption p {
@@ -67,14 +67,14 @@
   margin-top: 10px;
 }
 
-/* Карусель - основні стилі */
 .carousel-inner {
   display: flex;
+  flex-direction: column; 
 }
 
 .carousel-item {
-  flex: 0 0 33.33%; /* Три слайди на екран */
-  max-width: 33.33%;
+  flex: 0 0 100%;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
@@ -83,17 +83,17 @@
   height: auto;
 }
 
-/* Медіа-запити для адаптивності */
-@media (max-width: 1200px) {
+
+@media (min-width: 768px) {
   .carousel-item {
-    flex: 0 0 50%; /* Два слайди на екран */
+    flex: 0 0 50%;
     max-width: 50%;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 991px) {
   .carousel-item {
-    flex: 0 0 100%; /* Один слайд на екран */
-    max-width: 100%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
   }
 }
