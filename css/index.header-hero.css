@@ -71,23 +71,29 @@
         min-height: 695px;
         object-fit: cover;
         overflow: hidden;
-        transform: translateX(-7%);
+        transform: translateX(-2%);
         z-index: 1;
     }
 
     .header__hero-content {
         background-color: var(var(--header-hero-background-color));
-        max-width: 710px;
         height: 695px;
-        padding-right: 100px;
+        padding-left: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        max-width: 40%;
-        left: 50%;
+        max-width: 49%;
         z-index: 3;
-        transform: translateX(-20%);
+        transform: translateX(-7%);
+    }
+
+    .header__title {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .header__title-text {
