@@ -43,7 +43,8 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    background-color: #fff;
+    background-color: var(--gift-packs-carousel__button-background);
+    color:var(--gift-packs-carousel__button-color);
     border: none;
     cursor: pointer;
     border-radius: 50%;

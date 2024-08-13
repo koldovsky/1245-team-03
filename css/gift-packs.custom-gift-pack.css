@@ -19,7 +19,7 @@
 }
 .custom-gift-pack__form h2 {
     font-size: 24px;
-    color: #212020;;
+    color: var(--gift-packs-custom-gift-pack__form-h2);
     margin-bottom: 10px;
 }
 
