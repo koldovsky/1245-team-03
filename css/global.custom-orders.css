@@ -2,12 +2,14 @@
     font-family: --title-font-family;
     font-size: 38px;
     width: 100%;
+    display: flex;
 }
 
 .custom-orders__content {
     font-family: --text-font-family;
-    font-size: 38px;
+    font-size: 15px;
     width: 100%;
+    display: flex;
 }
 
 .custom-orders__image {
@@ -16,4 +18,7 @@
         url(../img/custom-orders/castom-orders.jpeg);
         background-size: cover;
         background-position: center;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
 }
