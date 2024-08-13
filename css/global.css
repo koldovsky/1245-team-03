@@ -53,6 +53,9 @@
   --blog-main-text-color:white;
   --blog-secondary-text-color: #c2c2c2;
 
+  --great-products-text-title:#212020;
+  --great-products-text-description:#595452;
+
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;

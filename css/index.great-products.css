@@ -36,7 +36,7 @@
 
     max-width: 570px;
     max-height: 110px;
-    color: #212020;
+    color: var(--great-products-text-title);
     font-size: 50px;
     font-family: var(--title-font-family);
     font-weight: normal;
@@ -49,7 +49,7 @@
     max-width: 558px;
     max-height: 235px;
     font-size: 15px;
-    color: #595452;
+    color: var(--great-products-text-description);
     font-family: var(--text-font-family);
 }
 
