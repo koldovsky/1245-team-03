@@ -38,7 +38,7 @@
 }
 
 .blog__title {
-  font-family: Saira, sans-serif;
+  font-family: var(--title-font-family);
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: -0.034em;
@@ -48,7 +48,7 @@
 
 .blog__subtitle {
   padding-top: 15px;
-  font-family: Saira, sans-serif;
+  font-family: var(--title-font-family);
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: -0.034em;
