@@ -44,6 +44,15 @@
   --gift-packs-custom-gift-pack__form-h2:#212020;
   --gift-packs-carousel__button-color:#c3c3c3;
   --gift-packs-carousel__button-background:#3f3e3e;
+
+  --notebooks-general-text: #ffffff;
+  --notebooks-box-shadow: #0000001A;
+  --notebooks-backround-color-cards: #ffffff; 
+  --notebooks-button-color: #e04141;
+  --notebooks-title-text: #ffffff; 
+  --notebooks-cost-text: #e04141;
+  --notebooks-button-text: #ffffff;
+  --notebooks-button-hover: #000000;
   
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;

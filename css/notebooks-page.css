@@ -8,7 +8,7 @@
         background-size: cover;
         background-clip: content-box;
         min-width: 100vw;
-        color: white;
+        color: var(--notebooks-general-text);
         overflow: hidden;
         z-index: -12;
     }
@@ -28,7 +28,7 @@
     }
 
     .notebooks__carousel-element {
-        background-color: #ffffff;
+        background-color: var(--notebooks-backround-color-cards);
         border-radius: 10px;
         text-align: center;
         width: 360px;
@@ -38,7 +38,7 @@
     .notebooks__page-container {
         padding: 80px 0 100px 0;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px var(--notebooks-box-shadow);        ;
     }
 
     .notebooks__carousel-container {
@@ -64,7 +64,7 @@
         font-weight: normal;
         text-align: center;
         margin-bottom: 40px;
-        color: white;
+        color: var(--notebooks-title-text);
     }
 
     .notebooks__element-image img {
@@ -84,7 +84,7 @@
         font-size: 20px;
         font-family: var(--text-font-family);
         font-weight: bold;
-        color: #E04141;
+        color: var(--notebooks-cost-text);
     }
 
     .notebooks__element-button {
@@ -97,8 +97,8 @@
     .notebooks__button {
         width: 86.45px;
         height: 39px;
-        background-color: #e04141;
-        color: #ffffff;
+        background-color: var(--notebooks-button-color);
+        color: var(--notebooks-button-text);
         border-radius: 30px;
         text-decoration: none;
         display: flex;
@@ -107,7 +107,7 @@
     }
 
     .notebooks__button:hover {
-        background-color: #000000;
+        background-color: var(--notebooks-button-hover);
     }
 
     .carousel-bottom-slide {
