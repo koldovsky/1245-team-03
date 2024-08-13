@@ -1,24 +1,60 @@
-*, *::after, *::before {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --collections-text: white;
-    --collections-item-heading:#e04141;
-    --collections-link-container-border: white;
-    --collections-link-container-background: white;
-    --collections-link-text-hover: black;
-    --custom-orders-galery-background: #ebebeb;
-    --custom-orders-gallery-heading: rgb(33, 32, 32);
-    --custom-orders-gallery-button: #b8b8b8;
-    --custom-orders-gallery-button-hover: black;
-    --gift-packs-gift-packs-background:#ebebeb;
-    scroll-behavior: smooth;
+  /*colors*/
+  --header-nav-text-logo: #212020;
+  --header-nav-background-color: #f8f9fa;
+  --header-nav-text-menu: #212020;
+  --header-nav-link-hover: #e04141;
+  --header-nav-burger-menu: #212020;
+  --header-nav-box-shadow: #000000;
+
+  --header-hero-background-color: #f1f1f1;
+  --header-hero-button: #e04141;
+  --header-hero-button-click: #000000;
+  --header-hero-button-text: #ffffff;
+  --header-hero-text-color: #212020;
+
+  --collections-text: white;
+  --collections-item-heading: #e04141;
+  --collections-link-container-border: white;
+  --collections-link-container-background: white;
+  --collections-link-text-hover: black;
+
+  --products-background-color: #ebebeb;
+  --products-text-color: #212020;
+  --products-card-background-color: #fff;
+  --products-card-price-color: #e04141;
+
+  --custom-orders-galery-background: #ebebeb;
+  --custom-orders-gallery-heading: rgb(33, 32, 32);
+  --custom-orders-gallery-button: #b8b8b8;
+  --custom-orders-gallery-button-hover: black;
+
+  --global-footer-background: #212020;
+  --global-footer-icon: #ff4e4e;
+
+  --why-us-paragraph-color: rgb(194, 194, 194);
+
+  --blog-main-text-color:white;
+  --blog-secondary-text-color: #c2c2c2;
+
+  /*fonts*/
+  --title-font-family: "Saira", sans-serif;
+  --text-font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
 }
 
 img {
-    display: block;
-    width:100%;
+  display: block;
+  width: 100%;
 }
