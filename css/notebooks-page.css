@@ -1,86 +1,124 @@
-.notebooks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../img/collections/collections-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 105vh;
-    color: white;
-    padding: 60px 0 20px;
-    overflow: hidden;
-}
+@media (min-width: 992px) {
+    .notebooks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../img/collections/collections-background.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        min-width: 100vw;
+        color: white;
+        overflow: hidden;
+        z-index: -12;
+    }
 
-.notebooks__carousel-container {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
-    width: 1200px;
-    height: 503px;
-}
+    .notebooks__carousel-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 12;
+        gap: 30px;
+        margin: 0 auto;
+    }
 
-.notebooks__page-container {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    .notebooks-background__image {
+        width: 0;
+        height: 0;
+    }
 
-.notebooks__title {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 40px;
-    color: white;
-}
+    .notebooks__carousel-element {
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+        width: 360px;
+        height: 522px;
+    }
 
-.notebooks__carousel-container {
-    display: flex;
-    justify-content: space-between;
-}
+    .notebooks__page-container {
+        padding: 80px 0 100px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-.notebooks__carousel-element {
-    width: 30%;
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
+    .notebooks__carousel-container {
+        display: flex;
+        justify-content: center;
+    }
 
-.notebooks__element-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+    .notebooks__element-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.notebooks__element-name {
-    margin-top: 15px;
-    font-size: 18px;
-    color: #555555;
-}
+    .contact__image-notebook {
+        max-width: 280px;
+        max-height: 280px;
+        margin-top: 40px;
+    }
 
-.notebooks__element-cost {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333333;
-}
+    .notebooks__title {
+        font-size: 50px;
+        font-family: var(--title-font-family);
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 40px;
+        color: white;
+    }
 
-.notebooks__element-button {
-    margin-top: 20px;
-}
+    .notebooks__element-image img {
+        min-width: 280px;
+        min-height: 280px;
+    }
 
-.notebooks__button {
-    display: inline-block;
-    padding: 15px 35px;
-    background-color: #d9534f;
-    color: #ffffff;
-    text-transform: uppercase;
-    border-radius: 30px;
-    text-decoration: none;
-    width: 86, 45px;
-    height: 39px;
-}
+    .notebooks__element-text {
+        margin-top: 24px;
+        font-size: 17px;
+        font-family: var(--text-font-family);
+        color: #212020;
+    }
 
-.notebooks__button:hover {
-    background-color: #000000;
+    .notebooks__element-cost {
+        margin-top: 16px;
+        font-size: 20px;
+        font-family: var(--text-font-family);
+        font-weight: bold;
+        color: #E04141;
+    }
+
+    .notebooks__element-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .notebooks__button {
+        width: 86.45px;
+        height: 39px;
+        background-color: #e04141;
+        color: #ffffff;
+        border-radius: 30px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notebooks__button:hover {
+        background-color: #000000;
+    }
+
+    .carousel-bottom-slide {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        margin-bottom: -60px;
+    }
+
+    .corousel-prev-button,
+    .corousel-next-button {
+        margin-top: 420px;
+    }
 }
