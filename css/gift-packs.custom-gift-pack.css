@@ -1,0 +1,101 @@
+.custom-gift-pack {
+    padding: 20px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+.custom-gift-pack__image {
+    margin-bottom: 20px;
+}
+
+.custom-gift-pack__image img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.custom-gift-pack__form {
+    margin-top: 20px;
+}
+.custom-gift-pack__form h2 {
+    font-size: 24px;
+    color: #212020;;
+    margin-bottom: 10px;
+}
+
+.custom-gift-pack__form p {
+    font-size: 16px;
+    color: rgb(33, 32, 32);
+    margin-bottom: 20px;
+}
+
+.custom-gift-pack__form label {
+    font-size: 14px;
+    color: rgb(33, 32, 32);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom-gift-pack__form input[type="text"],
+.custom-gift-pack__form input[type="tel"],
+.custom-gift-pack__form input[type="email"],
+.custom-gift-pack__form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.custom-gift-pack__form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #e04141;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-gift-pack__form button[type="submit"]:hover {
+    background-color: black;
+}
+@media (min-width: 768px) {
+    .custom-gift-pack {
+        flex-direction: row;
+    }
+
+    .custom-gift-pack__image {
+        flex: 1;
+        margin-right: 40px;
+    }
+
+    .custom-gift-pack__form {
+        flex: 1;
+        max-width: 500px;
+        margin-top: 0;
+    }
+
+    .custom-gift-pack__form h2 {
+        font-size: 32px;
+    }
+
+    .custom-gift-pack__form p {
+        font-size: 18px;
+    }
+
+    .custom-gift-pack__form input[type="text"],
+    .custom-gift-pack__form input[type="tel"],
+    .custom-gift-pack__form input[type="email"],
+    .custom-gift-pack__form textarea {
+        font-size: 16px;
+    }
+
+    .custom-gift-pack__form button[type="submit"] {
+        font-size: 18px;
+    }
+}
