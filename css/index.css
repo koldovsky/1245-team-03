@@ -1,7 +1,6 @@
 @import "global.css";
 @import "global.header-nav.css";
 @import "index.header-hero.css";
-@import "global.footer.css";
 @import "index.collections.css";
 @import "index.products.css";
 @import "index.handmade.css";
@@ -15,4 +14,4 @@
 @import "index.blog.partial.css";
 @import "custom-orders.css";
 @import "index.custom-orders-buttom.partial";
-
+@import "global.footer.css";

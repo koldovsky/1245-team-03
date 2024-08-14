@@ -24,7 +24,7 @@ footer {
 .footer__title {
   color: var(--collections-text);
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 10px;
   font-family: var(--title-font-family);
 }
@@ -84,6 +84,7 @@ footer {
 .footer__social-follow-us {
   color: var(--collections-text);
   font-size: 34px;
+  font-weight: 400;
   margin-bottom: 20px;
   font-family: var(--title-font-family);
 }
