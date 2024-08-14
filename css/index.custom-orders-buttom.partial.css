@@ -1,5 +1,22 @@
-.custom-orders__buttom {
-    font-family: --text-font-family;
+.custom-orders__buttom a {
+    display: inline-block;
+    font-family: var(--text-font-family);
     font-size: 14px;
-    color: --products-text-color;
+    color: #212020;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 7px 25px;
+    border: 1.6px solid #e04141;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.custom-orders__buttom a:hover {
+    background-color: #e04141;
+    color: #ffffff;
+}
+
+.custom-orders__buttom a:active {
+    background-color: transparent;
+    color: #212020;
 }
