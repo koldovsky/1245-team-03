@@ -76,7 +76,7 @@
         margin-top: 24px;
         font-size: 17px;
         font-family: var(--text-font-family);
-        color: #212020;
+        color: var(--notebooks-product-name);
     }
 
     .notebooks__element-cost {
@@ -120,5 +120,19 @@
     .corousel-prev-button,
     .corousel-next-button {
         margin-top: 420px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        transition: transform .8s ease-in-out;
+    }
+    
+    .carousel-item {
+        transition: transform .8s ease-in-out;
+    }
+    
+    .corousel-prev-button,
+    .corousel-next-button {
+        transition: background-color .8s ease-in-out;
     }
 }
