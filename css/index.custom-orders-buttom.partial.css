@@ -7,7 +7,7 @@
     border-radius: 20px;
     padding: 7px 25px;
     border: 1.6px solid #e04141;
-    transition: 0.3s;
+    transition: 0.3s ease;;
     background-color: transparent;
 }
 

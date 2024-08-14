@@ -8,25 +8,22 @@
   }
 
   .custom-orders__container {
-    margin: 80px 0px 90px 25px;
-    padding-top: 90px;
+    padding: 80px 0px 90px 25px;
     max-width: 490px;
-    width: 100%;
+    width: 90%;
   }
 
-  .custom-orders__title {
+  .custom-orders__title h3 {
     font-family: --title-font-family;
-    font-size: 2.25rem;
+    font-size: 36px;
     color: --products-text-color;
-    padding: 0px, 0px, 0px, 0px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
-  .custom-orders__content {
+  .custom-orders__content p {
     font-family: --text-font-family;
-    font-size: 1rem;
-    color: #212529;
-    margin: 0px 0px 1rem;
+    font-size: 16px;
+    color: #595452;
   }
 }
 
@@ -39,25 +36,22 @@
   }
 
   .custom-orders__container {
-    margin: 80px 0px 90px 300px;
-    padding-top: 90px;
-    max-width: 500px;
-    width: 100%;
+    padding: 80px 0px 90px 350px;
+    max-width: 700px;
+    width: 90%;
   }
 
-  .custom-orders__title {
+  .custom-orders__title h3 {
     font-family: --title-font-family;
-    font-size: 2.25rem;
+    font-size: 50px;
     color: --products-text-color;
-    padding: 0px, 0px, 0px, 0px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
-  .custom-orders__content {
+  .custom-orders__content p {
     font-family: --text-font-family;
-    font-size: 1rem;
-    color: #212529;
-    margin: 0px 0px 1rem;
+    font-size: 16px;
+    color: #595452;
   }
 
 }
