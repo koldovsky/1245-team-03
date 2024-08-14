@@ -50,6 +50,7 @@
   --notebooks-backround-color-cards: #ffffff; 
   --notebooks-button-color: #e04141;
   --notebooks-title-text: #ffffff; 
+  --notebooks-product-name: #212020;
   --notebooks-cost-text: #e04141;
   --notebooks-button-text: #ffffff;
   --notebooks-button-hover: #000000;
@@ -64,6 +65,15 @@
 
   --great-products-text-title:#212020;
   --great-products-text-description:#595452;
+
+  --personal-order-background-form: #ffffff;
+  --personal-order-title-text: #212020;
+  --personal-order-subtitle-text: #595452;
+  --personal-order-form-block: #ebebeb;
+  --personal-order-form-text: #595452;
+  --personal-order-form-button-background: #e04141;
+  --personal-order-form-button-text: #ffffff;
+  --personal-order-form-button-hover: #212020;
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
