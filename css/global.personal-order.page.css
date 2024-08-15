@@ -5,7 +5,7 @@
     background-image: url('../img/personal-order/background-image.webp');
     background-size: cover;
     background-position: 70% 70%;
-    transition: background-position 0.5s ease;
+    transition: background-position .5s ease;
 }
 
 .personal-order__container {
@@ -81,7 +81,7 @@
     border-radius: 25px;
     font-size: 12px;
     font-family: var(--text-font-family);
-    transition: background-color 0.3s ease;
+    transition: background-color .3s ease;
     width: 250px;
     max-height: 35px;
     margin: 25px 0 12px 0;
@@ -104,7 +104,7 @@
 
     .personal-order {
         background-position: 60% 60%;
-        transition: background-position 0.5s ease;
+        transition: background-position .5s ease;
     }
 }
 
@@ -120,7 +120,7 @@
 
     .personal-order {
         background-position: 57% 57%;
-        transition: background-position 0.5s ease;
+        transition: background-position .5s ease;
     }
 }
 
@@ -137,7 +137,7 @@
 
     .personal-order {
         background-position: 55% 55%;
-        transition: background-position 0.5s ease;
+        transition: background-position .5s ease;
     }
 
     .personal-order__container {
@@ -152,7 +152,7 @@
 @media (min-width:900px) {
     .personal-order {
         background-position: 50% 50%;
-        transition: background-position 0.9s ease;
+        transition: background-position .9s ease;
     }
 
     .personal-order__container {
