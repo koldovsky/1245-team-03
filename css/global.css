@@ -53,6 +53,12 @@
   --custom-orders-banner-bottom-hover-text-color: #ffffff;
   --custom-orders-banner-bottom-active-text-color: #212020;
 
+  --new-arrivals-background-color: #1e1d1d;
+  --new-arrivals-text-color: #fff;
+  --new-arrivals-card-background-color: #fff;
+  --new-arrivals-card-text-color: #212020;
+  --new-arrivals-card-price-color: #e04141;
+
   --notebooks-general-text: #ffffff;
   --notebooks-box-shadow: #0000001a;
   --notebooks-backround-color-cards: #ffffff;
