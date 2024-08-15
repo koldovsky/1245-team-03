@@ -1,0 +1,23 @@
+.custom-orders-banner__buttom a {
+  display: inline-block;
+  font-family: var(--text-font-family);
+  font-size: 14px;
+  color: var(--custom-orders-banner-bottom-text-color);
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 7px 25px;
+  border: 1.6px solid var(--custom-orders-banner-bottom-border-color);
+  margin-top: 50px;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+
+.custom-orders-banner__buttom a:hover {
+  background-color: var(--custom-orders-banner-bottom-hover-backgroun-color);
+  color: var(--custom-orders-banner-bottom-hover-text-color);
+}
+
+.custom-orders-banner__buttom a:active {
+  background-color: transparent;
+  color: var(--custom-orders-banner-bottom-active-text-color);
+}

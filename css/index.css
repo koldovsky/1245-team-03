@@ -10,9 +10,7 @@
 @import "index.great-products.css";
 @import "index.why-us.css";
 @import "index.gift-packs.css";
-@import "global.custom-orders.css";
+@import "global.custom-orders-banner.css";
+@import "index.custom-orders-banner-buttom.css";
 @import "index.blog.partial.css";
-@import "custom-orders.css";
-@import "index.custom-orders-buttom.partial.css";
-@import "custom-orders.branding-process.partial.css";
 @import "global.footer.css";
