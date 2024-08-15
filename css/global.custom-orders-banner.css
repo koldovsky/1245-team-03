@@ -5,6 +5,7 @@
     background-position: left;
     min-height: 450px;
     max-width: 750px;
+    background-position: 32% 50%;
   }
 
   .custom-orders-banner__container {
@@ -18,11 +19,13 @@
     font-size: 36px;
     color: var(--custom-orders-banner-title-color);
     margin-bottom: 50px;
+    font-weight: 400;
   }
 
-  .custom-orders__content p {
+  .custom-orders-banner__content p {
     font-family: var(--text-font-family);
     font-size: 16px;
+    line-height: 1.5em;
     color: var(--custom-orders-banner-text-color);
   }
 }
@@ -38,6 +41,7 @@
   .custom-orders-banner__container {
     padding: 80px 0 90px 350px;
     max-width: 700px;
+    width: 100%;
   }
 
   .custom-orders-banner__title h3 {
@@ -45,11 +49,13 @@
     font-size: 50px;
     color: var(--custom-orders-banner-title-color);
     margin-bottom: 50px;
+    font-weight: 400;
   }
 
-  .custom-orders__content p {
+  .custom-orders-banner__content p {
     font-family: var(--text-font-family);
     font-size: 16px;
+    line-height: 1.5em;
     color: var(--custom-orders-banner-text-color);
   }
 }
