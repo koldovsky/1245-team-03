@@ -1,0 +1,39 @@
+.branding-process-conteiner {
+  background-color: #0d130e;
+}
+
+.branding-process__title h3 {
+  display: inline-block;
+  color: var(--custom-orders-branding-process-title-color);
+  font-family: var(--title-font-family);
+  font-weight: 400;
+  padding: 85px 0 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.branding-process__img img {
+  margin: 0 auto;
+  padding: 0 0 90px 0;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1235px) {
+  .branding-process__img {
+    min-width: 260px;
+    padding: 0 30px;
+  }
+  .branding-process__title h3 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1236px) {
+  .branding-process__img img {
+    max-width: 1175px;
+  }
+  .branding-process__title h3 {
+    font-size: 50px;
+  }
+}

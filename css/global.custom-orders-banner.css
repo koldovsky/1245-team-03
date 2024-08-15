@@ -1,8 +1,25 @@
+.custom-orders-banner-background {
+  background-image: url(../img/custom-orders/castom-orders.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+
+.custom-orders-banner__title h3 {
+  font-family: var(--title-font-family);
+  color: var(--custom-orders-banner-title-color);
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.custom-orders-banner__content p {
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  line-height: 1.5em;
+  color: var(--custom-orders-banner-text-color);
+}
+
 @media (max-width: 750px) {
   .custom-orders-banner-background {
-    background-image: url(../img/custom-orders/castom-orders.jpeg);
-    background-size: cover;
-    background-position: left;
     min-height: 450px;
     max-width: 750px;
     background-position: 32% 50%;
@@ -15,26 +32,12 @@
   }
 
   .custom-orders-banner__title h3 {
-    font-family: var(--title-font-family);
     font-size: 36px;
-    color: var(--custom-orders-banner-title-color);
-    margin-bottom: 50px;
-    font-weight: 400;
-  }
-
-  .custom-orders-banner__content p {
-    font-family: var(--text-font-family);
-    font-size: 16px;
-    line-height: 1.5em;
-    color: var(--custom-orders-banner-text-color);
   }
 }
 
 @media (min-width: 751px) {
   .custom-orders-banner-background {
-    background-image: url(../img/custom-orders/castom-orders.jpeg);
-    background-size: cover;
-    background-position: left;
     height: 668px;
   }
 
@@ -45,17 +48,6 @@
   }
 
   .custom-orders-banner__title h3 {
-    font-family: var(--title-font-family);
     font-size: 50px;
-    color: var(--custom-orders-banner-title-color);
-    margin-bottom: 50px;
-    font-weight: 400;
-  }
-
-  .custom-orders-banner__content p {
-    font-family: var(--text-font-family);
-    font-size: 16px;
-    line-height: 1.5em;
-    color: var(--custom-orders-banner-text-color);
   }
 }
