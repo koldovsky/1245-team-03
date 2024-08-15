@@ -1,5 +1,6 @@
 @import "global.css";
 @import "global.header-nav.css";
 @import "notebooks-page.css";
-@import "personal-order-page.css";
+@import "global.personal-order.page.css";
+@import "personal-order.title-form-notebooks.css";
 @import "global.footer.css";

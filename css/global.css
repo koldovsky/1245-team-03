@@ -93,6 +93,16 @@
   --personal-order-form-button-text: #ffffff;
   --personal-order-form-button-hover: #212020;
 
+  --catalog-notebooks-title-text: #ffffff;
+  --catalog-notebooks-element-text: #ffffff;
+  --catalog-notebooks-left-button-border: #e04141;
+  --catalog-notebooks-left-button-text: #ffffff;
+  --catalog-notebooks-left-button-background-hover: #e04141;
+  --catalog-notebooks-left-button-text-hover: #ffffff;
+  --catalog-notebooks-right-button-background: #e04141;
+  --catalog-notebooks-right-button-text: #ffffff;
+  --catalog-notebooks-right-button-text-hover: #ffffff;
+  --catalog-notebooks-right-button-background-hover: #000000;
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;

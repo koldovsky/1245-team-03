@@ -1,0 +1,17 @@
+.notebooks-page__form {
+    display: block;
+}
+
+.personal-order__form {
+    display: none;
+}
+
+@media (min-width:900px) {
+    .notebooks-page__form {
+        display: block;
+    }
+
+    .personal-order__form {
+        display: none;
+    }
+}
