@@ -34,7 +34,7 @@
     font-family: var(--text-font-family);
     font-size: 15.4px;
     border-radius: 30px;
-    transition: background-color 0.3s ease;
+    transition: background-color .3s ease;
 }
 
 .header__button-click:hover {

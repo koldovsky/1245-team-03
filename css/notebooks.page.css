@@ -108,6 +108,7 @@
 
     .notebooks__button:hover {
         background-color: var(--notebooks-button-hover);
+        transition: background-color .5s ease-in-out;
     }
 
     .carousel-bottom-slide {

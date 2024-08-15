@@ -92,12 +92,16 @@
     color: var(--catalog-notebooks-left-button-text);
     cursor: pointer;
     border-radius: 30px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color .3s, color .3s;
 }
 
 .catalog-notebooks__transparent-button:active {
     background-color: var(--catalog-notebooks-left-button-background-hover);
     color: var(--catalog-notebooks-left-button-text-hover);
+}
+
+.catalog-notebooks__transparent-button:hover {
+    background-color: var(--catalog-notebooks-right-button-background);
 }
 
 .catalog-notebooks__red-button {
@@ -108,10 +112,15 @@
     color: var(--catalog-notebooks-right-button-text);
     cursor: pointer;
     border-radius: 30px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color .3s, color .3s;
 }
 
 .catalog-notebooks__red-button:active {
+    background-color: var(--catalog-notebooks-right-button-text-hover);
+    color: var(--catalog-notebooks-right-button-background-hover);
+}
+
+.catalog-notebooks__red-button:hover {
     background-color: var(--catalog-notebooks-right-button-text-hover);
     color: var(--catalog-notebooks-right-button-background-hover);
 }
