@@ -13,14 +13,14 @@
     text-align: center;
     font-size: 38px;
     font-family: var(--title-font-family);
-    color: var(--awards__titile)
+    color: var(--awards__titile);
 }
 
 .awards__description {
     text-align: center;
     font-size: 16px;
     font-family: var(--text-font-family);
-    color: var(--awards__title)
+    color: var(--awards__title);
 }
 
 .awards__container {
@@ -52,56 +52,54 @@
     align-items: center;
 }
 
-/* Стилі для кнопки "Request a quote" */
 .awards__button--request {
-    background-color: var(--button__primary); /* Червоний фон */
-    color: white; /* Білий текст */
-    padding: 10px 20px; /* Внутрішні відступи */
-    border: none; /* Без обрамлення */
-    border-radius: 50px; /* Закруглені краї */
-    font-family: var(--text-font-family); /* Шрифт */
-    font-size: 14px; /* Розмір тексту */
-    text-align: center; /* Вирівнювання тексту */
-    text-decoration: none; /* Прибираємо підкреслення */
-    cursor: pointer; /* Змінюємо курсор на "палець" */
-    transition: background-color 0.3s ease; /* Плавна зміна кольору */
-    display: inline-block; /* Вирівнювання по лінії */
+    background-color: var(--button__primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
     margin: 10px;
 }
 
 .awards__button--request:hover {
-    background-color: var(--awards__title); /* Темніший червоний при наведенні */
+    background-color: var(--awards__title);
 }
 
-/* Стилі для кнопки "Learn more" */
 .awards__button--learn {
-    background-color: white; /* Білий фон */
-    color: var(--awards__title); /* Червоний текст */
-    padding: 10px 20px; /* Внутрішні відступи */
-    border: 2px solid var(--button__primary); /* Червона рамка */
-    border-radius: 50px; /* Закруглені краї */
-    font-family: var(--text-font-family); /* Шрифт */
-    font-size: 14px; /* Розмір тексту */
-    text-align: center; /* Вирівнювання тексту */
-    text-decoration: none; /* Прибираємо підкреслення */
-    cursor: pointer; /* Змінюємо курсор на "палець" */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Плавна зміна кольору */
-    display: inline-block; /* Вирівнювання по лінії */
-    margin: 10px
+    background-color: white;
+    color: var(--awards__title);
+    padding: 10px 20px;
+    border: 2px solid var(--button__primary);
+    border-radius: 50px;
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    margin: 10px;
 }
 
 .awards__button--learn:hover {
-    background-color: var(--button__primary); /* Червоний фон при наведенні */
-    color: white; /* Білий текст при наведенні */
+    background-color: var(--button__primary);
+    color: white;
 }
 
 @media (min-width:480px) and (max-width:990px) {
     .awards__container {
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(2, 1fr); /* Два стовпці з однаковою шириною */
-        grid-template-rows: repeat(2, auto); /* Два рядки з автоматичною висотою */
-        gap: 20px; /* Відступи між елементами */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
     }
 }
 
@@ -109,8 +107,8 @@
     .awards__container {
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(4, 1fr); /* Два стовпці з однаковою шириною */
-        grid-template-rows: repeat(1, auto); /* Два рядки з автоматичною висотою */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, auto);
         gap: 5px;
     }
 }
@@ -121,6 +119,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 5px
+        gap: 5px;
     }
 }

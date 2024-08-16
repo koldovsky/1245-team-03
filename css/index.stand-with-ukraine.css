@@ -6,22 +6,22 @@
 
 .support-ukraine__container {
     display: flex;
-    flex-direction: column; /* Розташовуємо елементи вертикально */
-    align-items: center; /* Центруємо по горизонталі */
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 .support-ukraine__header {
-    display: flex; /* Робимо зображення і заголовок в одному рядку */
-    align-items: center; /* Вирівнюємо по вертикалі */
-    justify-content: center; /* Центруємо по горизонталі */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .support-ukraine__image {
     width: 50px;
     height: auto;
-    margin-right: 10px; /* Відступ між зображенням та заголовком */
+    margin-right: 10px;
 }
 
 .support-ukraine__title {
@@ -29,7 +29,7 @@
     color: var(--support-ukraine-title);
     font-family: var(--title-font-family);
     font-size: 26px;
-    text-align: left; /* Вирівнюємо текст заголовка ліворуч у рядку */
+    text-align: left;
 }
 
 .support-ukraine__description {
