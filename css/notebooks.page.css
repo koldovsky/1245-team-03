@@ -1,0 +1,139 @@
+@media (min-width: 992px) {
+    .notebooks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../img/collections/collections-background.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        min-width: 100vw;
+        color: var(--notebooks-general-text);
+        overflow: hidden;
+        z-index: -12;
+    }
+
+    .notebooks__carousel-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 12;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .notebooks-background__image {
+        width: 0;
+        height: 0;
+    }
+
+    .notebooks__carousel-element {
+        background-color: var(--notebooks-backround-color-cards);
+        border-radius: 10px;
+        text-align: center;
+        width: 360px;
+        height: 522px;
+    }
+
+    .notebooks__page-container {
+        padding: 80px 0 100px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px var(--notebooks-box-shadow);        ;
+    }
+
+    .notebooks__carousel-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .notebooks__element-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__image-notebook {
+        max-width: 280px;
+        max-height: 280px;
+        margin-top: 40px;
+    }
+
+    .notebooks__title {
+        font-size: 50px;
+        font-family: var(--title-font-family);
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 40px;
+        color: var(--notebooks-title-text);
+    }
+
+    .notebooks__element-image img {
+        min-width: 280px;
+        min-height: 280px;
+    }
+
+    .notebooks__element-text {
+        margin-top: 24px;
+        font-size: 17px;
+        font-family: var(--text-font-family);
+        color: var(--notebooks-product-name);
+    }
+
+    .notebooks__element-cost {
+        margin-top: 16px;
+        font-size: 20px;
+        font-family: var(--text-font-family);
+        font-weight: bold;
+        color: var(--notebooks-cost-text);
+    }
+
+    .notebooks__element-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .notebooks__button {
+        width: 86.45px;
+        height: 39px;
+        background-color: var(--notebooks-button-color);
+        color: var(--notebooks-button-text);
+        border-radius: 30px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notebooks__button:hover {
+        background-color: var(--notebooks-button-hover);
+        transition: background-color .5s ease-in-out;
+    }
+
+    .carousel-bottom-slide {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        margin-bottom: -60px;
+    }
+
+    .corousel-prev-button,
+    .corousel-next-button {
+        margin-top: 420px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        transition: transform .8s ease-in-out;
+    }
+    
+    .carousel-item {
+        transition: transform .8s ease-in-out;
+    }
+    
+    .corousel-prev-button,
+    .corousel-next-button {
+        transition: background-color .8s ease-in-out;
+    }
+}
