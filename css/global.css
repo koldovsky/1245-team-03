@@ -107,9 +107,12 @@
   --catalog-notebooks-right-button-background-hover: #000000;
   
   --support-ukraine-title: #ffffff;
-  --support-ukraine-description: #ffffff;
+  --support-ukraine-description: #C2C2C2;
   --support-ukraine-background: #212020;
   --support-ukraine-image: #F7D648;
+
+  --awards__title: #212020;
+  --button__primary: #e04141;
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
