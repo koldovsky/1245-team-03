@@ -15,8 +15,8 @@
     return name === owner ? 'Hello boss' : 'Hello guest';
   }
 
-5. function litres(t) {
-    return ~~ (t / 2);
+5. function litres(time) {
+    return ~~ (time / 2);
 }
 
 6. function lovefunc(flower1, flower2){
