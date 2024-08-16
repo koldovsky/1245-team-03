@@ -1,5 +1,5 @@
 .branding-process-conteiner {
-  background-color: #0d130e;
+  background-color: --custom-orders-branding-process-backgroun-color;
 }
 
 .branding-process__title h3 {
