@@ -1,5 +1,7 @@
 @import "global.css";
 @import "global.header-nav.css";
-@import "global.footer.css";
 @import "gift-packs.gift-packs.css";
-@import "gift-packs.custom-gift-pack.css"
+@import "gift-packs.custom-gift-pack.css";
+@import "global.footer.css";
+
+

@@ -45,6 +45,13 @@
   --gift-packs-custom-gift-pack__form-h2: #212020;
   --gift-packs-carousel__button-color: #c3c3c3;
   --gift-packs-carousel__button-background: #3f3e3e;
+  --custom-gift-pack__form-button-background-color:#e04141;
+  --custom-gift-pack__form-p-color:rgb(33, 32, 32);
+  --custom-gift-pack-background-color:white;
+  --custom-gift-pack__form-label:rgb(33, 32, 32);
+  --custom-gift-pack__form-button:white; 
+  --custom-gift-pack__form-button-submit:black;
+  --index-gift-pack-carousel__button-background-color:#fff;
 
   --custom-orders-banner-title-color: #212020;
   --custom-orders-banner-text-color: #595452;
@@ -71,6 +78,8 @@
   --notebooks-cost-text: #e04141;
   --notebooks-button-text: #ffffff;
   --notebooks-button-hover: #000000;
+
+
 
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;

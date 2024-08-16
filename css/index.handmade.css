@@ -1,4 +1,3 @@
-
 .handmade {
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@
     align-items: center;
     .content-picture {
       object-fit: cover;
-      width:100%;
+      width: 100%;
       height: 41.4dvi;
       min-height: 121.83px;
       max-height: 524.04px;
