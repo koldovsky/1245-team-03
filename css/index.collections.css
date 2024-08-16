@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url("../img/collections/collections-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 105vh;
   color: var(--collections-text);
-  padding: 40px 0 20px;
   overflow: hidden;
   font-family: "Saira", sans-serif;
+  min-height: 50vw;
 }
 
 .collections__main-heading {
@@ -17,15 +17,13 @@
   font-weight: 400;
   letter-spacing: calc(-0.034 * 1em);
   line-height: 1.1;
+  margin: 20px 0;
 }
 
 .collections__items-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
-  padding: 20px 0;
   width: 100%;
-  height: auto;
 }
 
 .collections__item-wrapper {
@@ -37,6 +35,10 @@
   padding: 10px;
   margin-top: 30px;
   position: relative;
+}
+
+.collections__item-wrapper:first-of-type {
+  margin-top: 0;
 }
 
 .collections__image-wrapper {
@@ -95,7 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  margin: 40px 0;
 }
 
 .collections__link-container {
@@ -127,13 +129,13 @@
 }
 
 @media screen and (min-width: 420px) {
-  .collections {
-    padding: 60px 0 20px;
-    min-height: 50vw;
-  }
-
   .collections__item-wrapper {
     width: 50%;
+    margin-top: 0;
+  }
+
+  .collections__item-wrapper:last-of-type {
+    margin-top: 30px;
   }
 
   .collections__main-heading {
@@ -145,12 +147,15 @@
   .collections__items-container {
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0;
   }
 
   .collections__item-wrapper {
-    width: 30%;
+    width: 33.3%;
     padding: 10px;
+    margin-top: 0;
+  }
+
+  .collections__item-wrapper:last-of-type {
     margin-top: 0;
   }
 
@@ -164,14 +169,16 @@
 }
 
 @media screen and (min-width: 960px) {
+  .collections{
+    justify-content: space-around;
+  }
+  
   .collections__items-container {
     width: 1040px;
-    height: 403px;
   }
 
   .collections__item-wrapper {
     width: 30%;
-    height: 100%;
     padding: 0 15px;
   }
 
@@ -187,8 +194,11 @@
 
 @media screen and (min-width: 1180px) {
   .collections__items-container {
-    width: 1300px;
-    height: 503px;
+    width: 1200px;
+  }
+
+  .collections__item-wrapper {
+    width: 33.3%;
   }
 
   .collections__item-heading-wrapper {
