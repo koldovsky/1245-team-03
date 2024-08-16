@@ -42,12 +42,11 @@
   .content-part {
     display: flex;
     flex-direction: column;
+    row-gap: 30px;
   }
   .content-picture {
     width: 100%;
-    max-width: 431px;
-    margin-left: 15px;
-    margin-right: 15px;
+    max-width: 448.5px;
     .picture {
       object-fit: cover;
       width: 100%;
@@ -57,7 +56,9 @@
 }
 @media (min-width: 480px){
   .instagram__content{
+    row-gap: 30px;
     .content-part{
+      column-gap: 30px;
       flex-direction: row;
     }
   }
@@ -90,6 +91,7 @@
   }
 
   .instagram__content{
+    column-gap: 30px;
     flex-direction: row;
   }
 }
