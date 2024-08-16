@@ -1,6 +1,6 @@
 .custom-gift-pack {
     padding: 20px;
-    background-color: white;
+    background-color: var(--custom-gift-pack-background-color);
     display:flex;
     flex-direction: column;
 }
@@ -25,13 +25,13 @@
 
 .custom-gift-pack__form p {
     font-size: 16px;
-    color: rgb(33, 32, 32);
+    color: var(--custom-gift-pack__form-p-color);
     margin-bottom: 20px;
 }
 
 .custom-gift-pack__form label {
     font-size: 14px;
-    color: rgb(33, 32, 32);
+    color:  --custom-gift-pack__form-label;
     display: block;
     margin-bottom: 5px;
 }
@@ -52,8 +52,8 @@
 .custom-gift-pack__form button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #e04141;
-    color: white;
+    background-color: var(--custom-gift-pack__form-button-background-color);
+    color: --custom-gift-pack__form-button;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -62,7 +62,7 @@
 }
 
 .custom-gift-pack__form button[type="submit"]:hover {
-    background-color: black;
+    background-color: --custom-gift-pack__form-button-submit;
 }
 @media (min-width: 768px) {
     .custom-gift-pack {
