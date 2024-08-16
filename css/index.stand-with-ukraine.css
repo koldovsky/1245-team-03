@@ -1,2 +1,19 @@
 /*Taras Shcherban part*/
 
+.support-ukraine {
+    background-color: var(--support-ukraine-background);
+}
+
+.support-ukraine__title {
+    color: var(--support-ukraine-title);
+    font-family: var(--title-font-family);
+}
+
+.support-ukraine__description {
+    color: var(--support-ukraine-description);
+    font-family: var(--text-font-family);
+}
+
+.support-ukraine__image {
+    fill: var(--support-ukraine-image)
+}

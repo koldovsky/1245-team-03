@@ -105,6 +105,12 @@
   --catalog-notebooks-right-button-text: #ffffff;
   --catalog-notebooks-right-button-text-hover: #ffffff;
   --catalog-notebooks-right-button-background-hover: #000000;
+  
+  --support-ukraine-title: #ffffff;
+  --support-ukraine-description: #ffffff;
+  --support-ukraine-background: #212020;
+  --support-ukraine-image: #F7D648;
+
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;
