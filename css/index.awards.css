@@ -54,7 +54,7 @@
 
 .awards__button--request {
     background-color: var(--button__primary);
-    color: white;
+    color: var(--button__secondary);
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
@@ -73,7 +73,7 @@
 }
 
 .awards__button--learn {
-    background-color: white;
+    background-color: var(--button__secondary);
     color: var(--awards__title);
     padding: 10px 20px;
     border: 2px solid var(--button__primary);
@@ -90,7 +90,7 @@
 
 .awards__button--learn:hover {
     background-color: var(--button__primary);
-    color: white;
+    color: var(--button__secondary);
 }
 
 @media (min-width:480px) and (max-width:990px) {

@@ -57,6 +57,10 @@
     margin-bottom: 10px;
 }
 
+.support-ukraine__button:hover {
+    background-color: var(--support-ukraine-description);
+}
+
 @media (min-width:1000px) {
     .support-ukraine__container {
         flex-direction: row;
