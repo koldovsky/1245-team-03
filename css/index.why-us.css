@@ -8,7 +8,7 @@
   color: var(--collections-text);
   padding: 80px 0 90px;
   overflow: hidden;
-  font-family: var(--title-font-family);
+  font-family: "Saira", sans-serif;
   min-height: auto;
   box-sizing: border-box;
 }
@@ -18,8 +18,8 @@
 }
 
 .why__us-title {
-  font-size: 30px;
-  font-family: var(--title-font-family);
+  font-size: 50px;
+  font-family: "Saira", sans-serif;
   font-weight: 400;
   text-align: center;
   margin: 0;
@@ -27,13 +27,35 @@
 
 .why__us-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 0 15px;
   margin: auto;
   box-sizing: border-box;
 }
 
+.why__us-item {
+  width: 360px;
+  margin: 15px;
+  text-align: center;
+}
+
+.why__us-image-container {
+  display: flex;
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.why__us-item-title {
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 34px;
+  font-weight: 400;
+}
 .why__us p {
   padding: 0 15px;
   box-sizing: border-box;
@@ -43,56 +65,30 @@
   color: var(--why-us-paragraph-color);
 }
 
-.carousel-inner img {
-  width: 100px;
+.why__us-image {
   height: 100px;
+  width: 100px;
+  max-width: 100%;
 }
 
-.carousel-caption {
-  position: static;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.carousel-item img {
-  margin-bottom: 20px;
+.why__us p {
+  margin: 0;
+  word-wrap: break-word;
 }
 
 .why__us-item-title {
-  font-size: 20px;
-}
-
-.carousel-caption p {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.carousel-inner {
-  display: flex;
-  flex-direction: column;
-}
-
-.carousel-item {
-  flex: 0 0 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: auto;
+  font-size: 24px;
 }
 
 @media (min-width: 768px) {
-  .carousel-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+  .why__us {
+    display: flex;
   }
-}
-
-@media (min-width: 991px) {
-  .carousel-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+  .why__us-image {
+    height: 100px;
+    width: 100px;
+  }
+  .why__us-title-container {
+    padding-bottom: 30px;
   }
 }

@@ -145,6 +145,19 @@ footer {
 .footer__bottom-credentials-container {
   order: 1;
 }
+.social-icon:hover rect.logo {
+  fill: var(--collections-link-text-hover);
+}
+.social-icon:hover polygon {
+  fill: var(--global-footer-icon);
+}
+.social-icon:hover .logo-rect {
+  stroke: var(--global-footer-background);
+}
+.social-icon:hover .logo-circle,
+.social-icon:hover .logo-circle-small {
+  fill: var(--global-footer-background);
+}
 
 .footer__bottom-rights-container {
   order: 2;

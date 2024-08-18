@@ -42,7 +42,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-  background-color: #fff;
+  background-color: var(--index-gift-pack-carousel__button-background-color);
   border: none;
   cursor: pointer;
   border-radius: 50%;
