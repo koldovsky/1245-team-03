@@ -1,5 +1,6 @@
 .branding-process-conteiner {
-  background-color: --custom-orders-branding-process-backgroun-color;
+  background-image: url(../img/branding-process/branding-process-background.webp);
+  background-attachment: fixed;
 }
 
 .branding-process__title h3 {
