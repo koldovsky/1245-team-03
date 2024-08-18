@@ -28,7 +28,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Богуслав Станішевський | products,New arrivals, in stock page |
 | Teammate | Микола Циганюк | collections✅,gallery⌛ |
 | Teammate | Щур Саша | gift packs,custom gift pack, custom products, |
-| Teammate | Іван Романюк | custom orders ✅ + branding process ⌛ |
+| Teammate | Іван Романюк | custom orders ✅ + branding process ✅ |
 | Teammate | Владислав Гоменюк | Great products at great price,форма |
 | Teammate | Василь Яворський | What hand made means to us, write us + contacts |
 | Teammate | Валерія Тихонюк | Blog |
