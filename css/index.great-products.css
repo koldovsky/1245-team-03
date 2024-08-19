@@ -50,8 +50,11 @@
     }
 
     .great-products__image-bag {
-        transform: scale(0.86);
+        margin: -50px auto;
+        
     }
+    .great-products__image{overflow: hidden;}
+    .great-products__content{ margin: auto 0;}
 }
 
 @media (min-width: 1024px) {
