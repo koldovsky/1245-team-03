@@ -1,9 +1,13 @@
-.parallax style{
-  background-image: url("img/subscribe-parallax/5c7cd2b1dbbbd50022015d1e_optimized_1200.jpeg");
-
-  /* Create the parallax scrolling effect */
+.parallax-container {
+  background-image: url("img/subscribe-parallax/subscribe_parallax_image.webp");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
