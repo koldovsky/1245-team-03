@@ -1,0 +1,9 @@
+.parallax style{
+  background-image: url("img/subscribe-parallax/5c7cd2b1dbbbd50022015d1e_optimized_1200.jpeg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
