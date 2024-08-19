@@ -31,15 +31,29 @@
     font-size: 15px;
 }
 
-.great-products__image img {
-    display: block;
+.great-products__image-bag img {
     width: 100%;
     height: auto;
+    margin: 0 20px 20px 20px;
+
 
 }
 
-@media (min-width: 768px) 
-        {.great-products__title-text {text-align: left;}
-            .great-products__main {text-align: left;}
-        
+@media (min-width: 768px) {
+    .great-products__block {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
     }
+
+    .great-products__content {
+        justify-content: center;
+    }
+
+    .great-products__image-bag {
+        transform: scale(0.86);
+    }
+}
+
+@media (min-width: 1024px) {
+    
+}
