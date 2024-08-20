@@ -123,6 +123,10 @@
   --button__primary: #e04141;
   --button__secondary: #ffffff;
 
+  --requets-button-color: #e04141;
+  --request-title-color: #ffffff;
+  --hover-button-color: #212020; 
+
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;

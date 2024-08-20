@@ -1,0 +1,45 @@
+.content-container {
+    position: relative;
+    background-image: url('../img/request-quote/request-quote.jpg');
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: var(--request-title-color);
+        text-align: center;
+        padding: 50px 20px;
+        font-family: var(--title-font-family);
+        overflow: hidden;
+        height: 393px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.headline {
+    font-size: 45px; 
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.subheadline {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.quote-button{ 
+    background-color: var(--requets-button-color);
+    color: var(--request-title-color);
+    font-family: var(--text-font-family);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+.quote-button:hover {
+    background-color: var(--request-title-color);
+    color: var(--hover-button-color)
+}
