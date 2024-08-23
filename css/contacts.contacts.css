@@ -36,6 +36,16 @@
 
   .contacts__info {
     border: 1px solid blue;
+
+    .info-title {
+      font-family: "Saira", sans-serif;
+      font-size: 38px;
+      font-weight: 335;
+      letter-spacing: calc(-0.03 * 1em);
+      line-height: 1.1;
+      text-align: center;
+      color: #ffffff;
+    }
   }
 }
 
@@ -46,11 +56,24 @@
 
   .contacts__box {
     flex-direction: row;
+
+    .contacts__message {
+      .message-title {
+        font-size: 44px;
+      }
+    }
   }
 }
 
 @media (min-width: 992px) {
   .contacts {
     padding: 100px 40px 100px 40px;
+  }
+  .contacts__box {
+    .contacts__message {
+      .message-title {
+        font-size: 50px;
+      }
+    }
   }
 }
