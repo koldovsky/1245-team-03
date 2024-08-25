@@ -35,8 +35,6 @@
     width: 100%;
     height: auto;
     margin: 0 20px 20px 20px;
-
-
 }
 
 @media (min-width: 768px) {
@@ -51,12 +49,37 @@
 
     .great-products__image-bag {
         margin: -50px auto;
-        
+        transform: scale(0.6, 0.6);
+
     }
-    .great-products__image{overflow: hidden;}
-    .great-products__content{ margin: auto 0;}
+
+    .great-products__image {
+        overflow: hidden;
+    }
+
+    .great-products__content {
+        margin: auto 0;
+    }
+    
 }
 
 @media (min-width: 1024px) {
-    
+    .great-products__image-bag {
+        position: relative;
+    }
+.great-products__block{
+    max-height: 60vh;
+}
+}
+@media (min-width: 1400px){
+    .great-products__image-bag{
+        position:relative;
+        margin-top: -200px;
+        transform: scale(0.4, 0.4);
+        .great-products__content{
+            position: relative;
+            margin:auto;
+        }
+    }
+
 }
