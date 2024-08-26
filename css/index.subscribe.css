@@ -1,13 +1,27 @@
 .parallax-container {
-  background-image: url("img/subscribe-parallax/subscribe_parallax_image.webp");
+  background-image: url("https://res2.weblium.site/res/5c78f7951f572b0022f79c95/5c7cd2b1dbbbd50022015d1e_optimized_1920.webp");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 400px;;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-color: var(--subscribe-background-color);
+  
+}
+.subscribe-title__text{
+  color: var(--header-hero-button-text);
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 40px;
+  padding-right: 20px;
+  font: var(--title-font-family);
+  font-size: 5dvh;
+}
+.subscrib-main__text{
+  font-size: 2dvh;
+  color: var(--header-hero-button-text);
+  padding-left: 15px;
+  font: var(--title-font-family);
 }
