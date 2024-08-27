@@ -7,6 +7,9 @@
     font-size: 38px;
 
 }
+.great-products__block{
+    
+}
 
 .great-products__text-top,
 .great-products__text-bottom {
@@ -42,11 +45,12 @@
         grid-template-columns: repeat(2, 1fr);
         display: grid;
         position: relative;
-        margin-top: 50px;
+       /* margin-top: 50px;*/
+        margin-top: revert-layer
     }
 
     .great-products__content {
-        /*justify-content:center;*/
+        justify-content:center;
         margin-top: 70px;
     }
 
@@ -71,14 +75,14 @@
     }
 
     .great-products__block {
-        max-height: 60vh;
+        max-height: 70vh;
     }
 }
 
 @media (min-width: 1138px) {
     .great-products__image-bag {
         position: relative;
-        margin-top: -170px;
+        margin-top: -80px;
         transform: scale(0.5, 0.5);}
 
         .great-products__content {
