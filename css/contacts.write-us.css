@@ -1,6 +1,8 @@
 .write-us {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   padding: 90px 24px 90px 24px;
   background-image: url("../img/people/man-standing-1.jpeg");
   background-attachment: scroll;
@@ -8,17 +10,47 @@
   background-position: center;
 }
 
-.write-us__form {
-  border: 1px solid blue;
-  padding: 50px 45px 50px 45px;
+.write-us__container{
   min-width: 272px;
   max-width: 1170px;
   display: flex;
+  flex: 1;
+}
+.write-us__form {
+  background-color: white;
+  padding: 35px 40px 35px 40px;
+  display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  .form-header{
+    .header-text{
+      margin-bottom: 35px;
+      font-family: "Saira", sans-serif;
+      font-size: 38px;
+      font-weight: 335;
+      letter-spacing: calc(-0.03 * 1em);
+      line-height: 1.1;
+      text-align: center;
+      color: #323232;
+    }
+  }
   .form-form {
     display: flex;
     flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    .form-item {
+      flex: 1;
+    }
+  }
+  .form-button {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    .button {
+      flex: 1;
+    }
   }
 }
 
@@ -28,9 +60,17 @@
     padding: 95px 32px 95px 32px;
     .write-us__left {
       flex: 50%;
+      margin-right: 30px;
     }
     .write-us__form {
+      padding: 41px 50px 41px 50px;
       flex: 50%;
+      .form-header{
+        .header-text{
+          margin-bottom: 55px;
+          font-size: 44px;
+        }
+      }
     }
   }
 }
@@ -38,5 +78,14 @@
 @media (min-width: 992px) {
   .write-us {
     padding: 100px 40px 100px 40px;
+    .write-us__form {
+      padding: 47px 60px 47px 60px;
+      .form-header{
+        .header-text{
+          margin-bottom: 55px;
+          font-size: 50px;
+        }
+      }
+    }
   }
 }

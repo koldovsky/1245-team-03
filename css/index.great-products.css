@@ -53,7 +53,6 @@
 
     .great-products__content {
         justify-content: center;
-        margin-top: 30px;
         align-self: center;
     }
 
@@ -63,14 +62,21 @@
     height: auto;
     }
 
-@media (min-width: 1138px) {
+@media (min-width: 1280px) {
     .great-products__image-bag {
         position: relative;
         margin-top: -80px;
         padding:80px 0 50px ;
+        margin-left: 10vh;
     }
 
     .great-products__content {
         position: relative;
+        margin-left: 20vh;
     }
+}
+@media (min-width: 1400px){
+.great-products__image-bag{
+    margin-left: 15vh;
+}
 }
