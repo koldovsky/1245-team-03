@@ -1,0 +1,42 @@
+.write-us {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 24px 90px 24px;
+  background-image: url("../img/people/man-standing-1.jpeg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+.write-us__form {
+  border: 1px solid blue;
+  padding: 50px 45px 50px 45px;
+  min-width: 272px;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  .form-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .write-us {
+    flex-direction: row;
+    padding: 95px 32px 95px 32px;
+    .write-us__left {
+      flex: 50%;
+    }
+    .write-us__form {
+      flex: 50%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .write-us {
+    padding: 100px 40px 100px 40px;
+  }
+}
