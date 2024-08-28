@@ -9,16 +9,42 @@
 }
 
 .write-us__form {
-  border: 1px solid blue;
-  padding: 50px 45px 50px 45px;
+  background-color: white;
+  padding: 35px 40px 35px 40px;
   min-width: 272px;
   max-width: 1170px;
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  .form-header{
+    .header-text{
+      margin-bottom: 35px;
+      font-family: "Saira", sans-serif;
+      font-size: 38px;
+      font-weight: 335;
+      letter-spacing: calc(-0.03 * 1em);
+      line-height: 1.1;
+      text-align: center;
+      color: #323232;
+    }
+  }
   .form-form {
     display: flex;
     flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    .form-item {
+      flex: 1;
+    }
+  }
+  .form-button {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    .button {
+      flex: 1;
+    }
   }
 }
 
@@ -30,7 +56,14 @@
       flex: 50%;
     }
     .write-us__form {
+      padding: 41px 50px 41px 50px;
       flex: 50%;
+      .form-header{
+        .header-text{
+          margin-bottom: 55px;
+          font-size: 44px;
+        }
+      }
     }
   }
 }
@@ -38,5 +71,14 @@
 @media (min-width: 992px) {
   .write-us {
     padding: 100px 40px 100px 40px;
+    .write-us__form {
+      padding: 47px 60px 47px 60px;
+      .form-header{
+        .header-text{
+          margin-bottom: 55px;
+          font-size: 50px;
+        }
+      }
+    }
   }
 }
