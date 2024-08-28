@@ -35,6 +35,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Вадим Скрипець | каталог(wallets) |
 | Teammate | Денис Теплюх | request a quote |
 | Teammate | Катерина Шевченко | bags,holders |
-| Teammate | Козін Володимир | our story(без першого та другого блоків|
+| Teammate | Козін Володимир | our story(без першого та другого блоків)|
 | Teammate | Тарас Щербан | #StandwithUkraine, Awards|
 | Teammate | Not defined | кошик |
