@@ -45,13 +45,13 @@
   --gift-packs-custom-gift-pack__form-h2: #212020;
   --gift-packs-carousel__button-color: #c3c3c3;
   --gift-packs-carousel__button-background: #3f3e3e;
-  --custom-gift-pack__form-button-background-color:#e04141;
-  --custom-gift-pack__form-p-color:rgb(33, 32, 32);
-  --custom-gift-pack-background-color:white;
-  --custom-gift-pack__form-label:rgb(33, 32, 32);
-  --custom-gift-pack__form-button:white; 
-  --custom-gift-pack__form-button-submit:black;
-  --index-gift-pack-carousel__button-background-color:#fff;
+  --custom-gift-pack__form-button-background-color: #e04141;
+  --custom-gift-pack__form-p-color: rgb(33, 32, 32);
+  --custom-gift-pack-background-color: white;
+  --custom-gift-pack__form-label: rgb(33, 32, 32);
+  --custom-gift-pack__form-button: white;
+  --custom-gift-pack__form-button-submit: black;
+  --index-gift-pack-carousel__button-background-color: #fff;
 
   --custom-orders-banner-title-color: #212020;
   --custom-orders-banner-text-color: #595452;
@@ -84,7 +84,6 @@
   --contacts-form-item-back: #e4e4e4;
   --contacts-form-item-text: #7b7a7a;
 
-
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;
 
@@ -98,6 +97,8 @@
 
   --our-story-first-block-background: #ebebeb;
   --our-story-first-block-text: rgb(89, 84, 82);
+
+  --our-story-second-block-lines-color: rgba(255, 255, 255, 0.3);
 
   --personal-order-background-form: #ffffff;
   --personal-order-title-text: #212020;
@@ -118,11 +119,11 @@
   --catalog-notebooks-right-button-text: #ffffff;
   --catalog-notebooks-right-button-text-hover: #ffffff;
   --catalog-notebooks-right-button-background-hover: #000000;
-  
+
   --support-ukraine-title: #ffffff;
-  --support-ukraine-description: #C2C2C2;
+  --support-ukraine-description: #c2c2c2;
   --support-ukraine-background: #212020;
-  --support-ukraine-image: #F7D648;
+  --support-ukraine-image: #f7d648;
 
   --awards__title: #212020;
   --button__primary: #e04141;
@@ -130,9 +131,9 @@
 
   --requets-button-color: #e04141;
   --request-title-color: #ffffff;
-  --hover-button-color: #212020; 
-  --subscribe-background-color:rgba(0, 0, 0, 0.593);
-  --subscribe-background-color-botton:rgba(255, 255, 255, 0.12);
+  --hover-button-color: #212020;
+  --subscribe-background-color: rgba(0, 0, 0, 0.593);
+  --subscribe-background-color-botton: rgba(255, 255, 255, 0.12);
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
