@@ -1,4 +1,5 @@
 function init() {
+    import('./global.burger-menu.js');
     import('./index.why-us-carousel.js');
 }
 
