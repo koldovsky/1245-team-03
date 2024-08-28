@@ -11,12 +11,24 @@
 
 :root {
   /*colors*/
+  --header-nav-background: #ffffff;
   --header-nav-text-logo: #212020;
-  --header-nav-background-color: #f8f9fa;
   --header-nav-text-menu: #212020;
-  --header-nav-link-hover: #e04141;
-  --header-nav-burger-menu: #212020;
-  --header-nav-box-shadow: #000000;
+  --header-nav-element-link-hover: #e04141;
+  --header-nav-list-link-hover: #e04141;
+  --header-nav-element-link-after: #e04141;
+  --header-nav-list-link-after: #e04141;
+  --header-nav-element-link-active: #e04141;
+  --header-nav-dropdown-menu: #212020;
+  --header-nav-dropdown-menu-hover: #e04141;
+  --header-nav-dropdown-menu-element-link: #e04141;
+  --header-nav-dropdown-menu-element-link-hover: #e04141;
+  --header-nav-svg-hover: #e04141;
+  --header-nav-svg-hover-dropdown: #e04141;
+  --header-nav-background-burger: #ffffff;
+  --header-nav-background-burger-wrapper: #ffffff;
+  --header-nav-line-wrapper: #000000;
+  --header-nav-background-active: #ffffff;
 
   --header-hero-background-color: #f1f1f1;
   --header-hero-button: #e04141;
@@ -146,7 +158,7 @@ img {
   width: 100%;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: auto;
   padding: 0;
