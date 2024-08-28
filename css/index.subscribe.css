@@ -4,24 +4,123 @@
   background-position: center;
   background-size: cover;
 
-  height: 400px;;
+  height: 400px;
+  ;
   width: 100%;
   background-blend-mode: multiply;
   background-color: var(--subscribe-background-color);
-  
+
 }
-.subscribe-title__text{
+
+.subscribe-botton__text {
+  background-color: var(--requets-button-color);
+  border: none;
+  color: var(--request-title-color);
+  font-family: var(--text-font-family);
+}
+
+.subscribe-title__text {
   color: var(--header-hero-button-text);
   text-align: left;
   padding-left: 15px;
   padding-top: 40px;
   padding-right: 20px;
-  font: var(--title-font-family);
+  font-family: var(--title-font-family);
   font-size: 5dvh;
+  font-weight: normal;
 }
-.subscrib-main__text{
+
+.subscrib-main__text {
   font-size: 2dvh;
   color: var(--header-hero-button-text);
   padding-left: 15px;
-  font: var(--title-font-family);
+  font-family: var(--title-font-family);
+
+}
+
+.subscribe-botton__content {
+  background-color: var(--requets-button-color);
+  border: none;
+  padding: 10px 120px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  width: auto;
+}
+
+.subscibe-email__text {
+  border: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  background-color: var(--subscribe-background-color-botton);
+  font-family: var(--text-font-family);
+  color: var(--request-title-color);
+  width: auto;
+}
+
+.subscribe-form {
+  display: block;
+
+}
+
+.subscibe-email__space {
+  display:grid;
+}
+
+
+@media (min-width: 768px) {
+  .parallax-container {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    position: relative;
+  }
+
+  .subscribe-form {
+    align-self: center;
+    justify-self: center;
+    width:min-content;
+  }
+
+  .subscribe-full__text {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .subscibe-email__text{
+    padding: 10px 65px;
+  }
+  .subscribe-title__text{
+    font-size: 50px
+  }
+  .subscrib-main__text{
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px){
+  .subscribe-full__text {
+    align-self: center;
+    justify-self: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+}
+@media (min-width: 1280px){
+  .subscribe-full__text {
+    align-self: center;
+    justify-self: center;
+    margin-left:a;
+    margin-right:auto;
+}
 }

@@ -1,0 +1,128 @@
+.write-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 90px 24px 90px 24px;
+  background-image: url("../img/people/man-standing-1.jpeg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+.write-us__container {
+  min-width: 272px;
+  max-width: 1170px;
+  display: flex;
+  flex: 1;
+}
+.write-us__form {
+  background-color: white;
+  padding: 35px 40px 35px 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  .form-header {
+    .header-text {
+      margin-bottom: 35px;
+      font-family: "Saira", sans-serif;
+      font-size: 38px;
+      font-weight: 335;
+      letter-spacing: calc(-0.03 * 1em);
+      line-height: 1.1;
+      text-align: center;
+      color: #323232;
+    }
+  }
+  .form-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    .form-item {
+      background-color: var(--contacts-form-item-back);
+      color: var(--contacts-form-item-text);
+      font-family: var(--text-font-family);
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: left;
+      border-radius: 20px;
+      line-height: 150%;
+      flex: 1;
+    }
+    .form-input {
+      background-color: var(--contacts-form-item-back);
+      color: var(--contacts-form-item-text);
+      font-family: var(--text-font-family);
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: left;
+      border-radius: 20px;
+      height: 150px;
+      resize: vertical;
+    }
+  }
+  .form-button {
+    display: flex;
+    margin-top: 57px;
+    width: 100%;
+    .button {
+      flex: 1;
+      background-color: var(--contacts-button-back);
+      color: var(--contacts-button-text);
+      font-family: var(--text-font-family);
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: var(--contacts-button-hover);
+      color: var(--contacts-button-text);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .write-us {
+    flex-direction: row;
+    padding: 95px 32px 95px 32px;
+    .write-us__left {
+      flex: 50%;
+      margin-right: 36px;
+    }
+    .write-us__form {
+      padding: 41px 50px 41px 50px;
+      flex: 50%;
+      .form-header {
+        .header-text {
+          margin-bottom: 60px;
+          font-size: 44px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .write-us {
+    padding: 100px 40px 100px 40px;
+    .write-us__form {
+      padding: 50px 80px 50px 80px;
+      .form-header {
+        .header-text {
+          margin-bottom: 57px;
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
