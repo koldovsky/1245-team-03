@@ -13,7 +13,7 @@
   background-color: var(--custom-orders-galery-background);
   font-family: "Saira", sans-serif;
   width: 100%;
-  min-height: 60vw;
+  padding-bottom: 10px;
 }
 
 .gallary__inner-content {
