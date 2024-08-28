@@ -38,7 +38,8 @@
     .notebooks__page-container {
         padding: 80px 0 100px 0;
         border-radius: 10px;
-        box-shadow: 0 4px 8px var(--notebooks-box-shadow);        ;
+        box-shadow: 0 4px 8px var(--notebooks-box-shadow);
+        ;
     }
 
     .notebooks__carousel-container {
@@ -127,13 +128,21 @@
         display: flex;
         transition: transform .8s ease-in-out;
     }
-    
+
     .carousel-item {
         transition: transform .8s ease-in-out;
     }
-    
+
     .corousel-prev-button,
     .corousel-next-button {
         transition: background-color .8s ease-in-out;
+    }
+}
+
+@media (min-width: 1200px) {
+    .catalog-notebooks__page-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
     }
 }
