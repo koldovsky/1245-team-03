@@ -31,19 +31,21 @@
   <body>
     <header>
       <nav
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.header-nav.partial.html"
-    ></nav>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
     </header>
 
-    <main class="container">
+    <main class="box">
       <section
+        class="partial"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="contacts.contacts.partial.html"
       ></section>
       <section
+        class="partial"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="contacts.write-us.partial.html"
