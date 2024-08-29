@@ -1,58 +1,82 @@
-.great-products {
-    width: 100vw;
-    height: 100vh;
-    padding: 80px 0 50px;
-    margin-bottom: -10%;
-}
-
-.great-products__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
-.great-products__image img {
-    min-width: 570px;
-    min-height: 485.97px;
-    transform: scale(1, 1.25);
-    position: relative;
-    z-index: -10;
-}
-
-.great-products__image-bag {
-    max-width: 570px;
-    max-height: 485.97px;
-}
-
-.great-products__title {
-    padding-bottom: 50px;
-    z-index: 3;
-
-}
-
 .great-products__title-text {
-
-    max-width: 570px;
-    max-height: 110px;
     color: var(--great-products-text-title);
-    font-size: 50px;
+    font-size: 30px;
     font-family: var(--title-font-family);
     font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 38px;
 
 }
-
+.great-products{
+    max-height: min-content;
+    flex-basis: 100%;
+}
 .great-products__text-top,
 .great-products__text-bottom {
-
-    max-width: 558px;
-    max-height: 235px;
-    font-size: 15px;
     color: var(--great-products-text-description);
     font-family: var(--text-font-family);
 }
 
-.great-products__main {
-    z-index: 3;
+.great-products__title {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.great-products__text-top {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.great-products__text-bottom {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.great-products__image-bag img {
+    width: 100%;
+    margin: 0 20px 20px 20px;
+}
+
+@media (min-width: 768px) {
+    .great-products__block {
+        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .great-products__content {
+        justify-content: center;
+        align-self: center;
+    }
+
+    }*/
+    .great-products__image-bag{
+    width: 100%;
+    height: auto;
+    }
+
+@media (min-width: 1280px) {
+    .great-products__image-bag {
+        position: relative;
+        margin-top: -80px;
+        padding:80px 0 50px ;
+        margin-left: 10vh;
+    }
+
+    .great-products__content {
+        position: relative;
+        margin-left: 20vh;
+    }
+}
+@media (min-width: 1400px){
+.great-products__image-bag{
+    margin-left: 15vh;
+}
 }

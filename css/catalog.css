@@ -1,4 +1,6 @@
 @import "global.css";
 @import "global.header-nav.css";
 @import "catalog.notebooks.css";
+@import "catalog.holders.css";
+@import "catalog.bags.css";
 @import "global.footer.css";

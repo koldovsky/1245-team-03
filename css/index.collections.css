@@ -8,8 +8,8 @@
   background-size: cover;
   color: var(--collections-text);
   overflow: hidden;
-  font-family: "Saira", sans-serif;
-  min-height: 50vw;
+  font-family: var(--title-font-family);
+  padding: 30px 0;
 }
 
 .collections__main-heading {
@@ -24,6 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .collections__item-wrapper {
@@ -97,7 +98,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0;
 }
 
 .collections__link-container {
@@ -122,7 +122,7 @@
   padding: 7px 25px;
   transition: 0.3s;
   color: var(--collections-text);
-  font-family: "Merriweather", serif;
+  font-family: var(--text-font-family);
   font-size: 18px;
   width: 100%;
   margin: 0;

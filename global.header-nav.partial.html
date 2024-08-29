@@ -1,43 +1,37 @@
 <!-- Header write Petro -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid container">
-        <div class="header__logo">
-            <a class="header__logo-link" href="index.html">
-                <p class="header__logo-text">Leather Crafties</p>
-            </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul data-proofer-ignore class="header__menu-lists navbar-nav">
-                <li class="header__menu-item dropdown nav-item">
-                    <a class="header__menu-link dropdown-toggle nav-link" href="catalog.html"
-                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Catalog <svg class="menu__item-triangle-ico_1My" viewBox="0 0 8 5" xmlns="http://www.w3.org/2000/svg"><path d="M4 5l4-5H0z"></path></svg>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="notebooks.html">Notebooks</a></li>
-                    </ul>
-                </li>
-                <li class="header__menu-item nav-item">
-                    <a class="header__menu-link nav-link" aria-current="page" href="gift-packs.html">Gift
-                        Packs</a>
-                </li>
-                <li class="header__menu-item nav-item">
-                    <a class="header__menu-link nav-link" href="custom-orders.html">Custom Orders</a>
-                </li>
-                <li class="header__menu-item nav-item">
-                    <a class="header__menu-link nav-link" href="our-story.html">Our Story</a>
-                </li>
-                <li class="header__menu-item nav-item">
-                    <a class="header__menu-link nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="header__menu-item nav-item">
-                    <a class="header__menu-link nav-link" href="contacts.html">Contacts</a>
-                </li>
-            </ul>
-        </div>
+<nav class="header__nav">
+    <div class="header__nav-logo">
+        <a class="header__logo-link" href="index.html">
+            <p class="header__logo-text">Leather Crafties</p>
+        </a>
+    </div>
+    <a href="#" class="wrapper-menu">
+        <div class="line-menu half start"></div>
+        <div class="line-menu"></div>
+        <div class="line-menu half end"></div>
+    </a>
+    <div class="header__nav-menu">
+        <ul data-proofer-ignore class="header__nav-list nav-list">
+            <li class="nav-item dropdown">
+                <a href="catalog.html" class="menu__element-link link-dropmenu" id="catalog">
+                    Catalog
+                </a>
+                <a class="header-svg__link">
+                    <svg class="menu__item-triangle-ico_1My" viewBox="0 0 8 5" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 5l4-5H0z"></path>
+                    </svg>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="nav-list__link general-menu"><a href="notebooks.html">Notebooks</a></li>
+                </ul>
+            </li>
+            <li class="nav-list__link link-bottom"><a href="gift-packs.html" class="menu__element-link">Gift Packs</a>
+            </li>
+            <li class="nav-list__link"><a href="custom-orders.html" class="menu__element-link">Custom Orders</a></li>
+            <li class="nav-list__link"><a href="our-story.html" class="menu__element-link">Our Story</a></li>
+            <li class="nav-list__link"><a href="#blog" class="menu__element-link">Blog</a></li>
+            <li class="nav-list__link"><a href="contacts.html" class="menu__element-link">Contacts</a>
+            </li>
+        </ul>
     </div>
 </nav>

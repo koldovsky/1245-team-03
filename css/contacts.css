@@ -1,0 +1,11 @@
+@import "global.css";
+@import "global.header-nav.css";
+@import "global.footer.css";
+@import "contacts.contacts.css";
+@import "contacts.write-us.css";
+
+.box {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}

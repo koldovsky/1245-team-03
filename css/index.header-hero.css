@@ -134,3 +134,11 @@
         font-size: 80px;
     }
 }
+
+@media (min-width: 1200px) {
+    .header__hero-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}

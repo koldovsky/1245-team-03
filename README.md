@@ -24,17 +24,16 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | role | name | tasks |
 |-------------|-------------|-------------|
 | Teammate | Петро Розумєй | header (Головний) + Hero, Notebooks + Page BuyNow, блок Notebooks (Page Catalog) |
-| >>Teamlead | Шумило Олексій | футер(головний),why us,our-story(first block) |
+| >>Teamlead | Шумило Олексій | футер(головний)✅,why us✅,our-story(first block,second block)✅ |
 | Teammate | Богуслав Станішевський | products,New arrivals, in stock page |
-| Teammate | Микола Циганюк | collections,gallery |
+| Teammate | Микола Циганюк | collections✅,gallery✅,basket⌛ |
 | Teammate | Щур Саша | gift packs,custom gift pack, custom products, |
-| Teammate | Іван Романюк | custom orders+branding process |
+| Teammate | Іван Романюк | custom orders ✅ + branding process ✅ |
 | Teammate | Владислав Гоменюк | Great products at great price,форма |
 | Teammate | Василь Яворський | What hand made means to us, write us + contacts |
 | Teammate | Валерія Тихонюк | Blog |
 | Teammate | Вадим Скрипець | каталог(wallets) |
 | Teammate | Денис Теплюх | request a quote |
 | Teammate | Катерина Шевченко | bags,holders |
-| Teammate | Козін Володимир | our story|
+| Teammate | Козін Володимир | our story(без першого та другого блоків)|
 | Teammate | Тарас Щербан | #StandwithUkraine, Awards|
-| Teammate | Not defined | кошик |

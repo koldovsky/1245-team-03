@@ -199,3 +199,11 @@
         padding: 9px 145px 12px;
     }
 }
+
+@media (min-width: 1200px) {
+    .personal-order__global {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}
