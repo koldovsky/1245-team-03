@@ -8,6 +8,9 @@
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
+  min-width: 350px;
+  max-width: 2000px;
+  width: 100%;
 }
 
 .write-us__container {
