@@ -9,13 +9,16 @@
   color: var(--custom-orders-banner-title-color);
   margin-bottom: 50px;
   font-weight: 400;
+  letter-spacing: -1.14px;
+  line-height: 41.8px;
 }
 
 .custom-orders-banner__content p {
   font-family: var(--text-font-family);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5em;
   color: var(--custom-orders-banner-text-color);
+  line-height: 24px;
 }
 
 @media (max-width: 750px) {
@@ -32,7 +35,7 @@
   }
 
   .custom-orders-banner__title h3 {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 
