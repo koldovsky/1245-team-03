@@ -30,7 +30,7 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 | Teammate | Щур Саша | gift packs,custom gift pack, custom products, |
 | Teammate | Іван Романюк | custom orders ✅ + branding process ✅ |
 | Teammate | Владислав Гоменюк | Great products at great price,форма |
-| Teammate | Василь Яворський | What hand made means to us, write us + contacts |
+| Teammate | Василь Яворський | What hand made means to us✅, write us✅, contacts✅ |
 | Teammate | Валерія Тихонюк | Blog |
 | Teammate | Вадим Скрипець | каталог(wallets) |
 | Teammate | Денис Теплюх | request a quote |

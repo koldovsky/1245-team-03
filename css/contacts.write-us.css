@@ -1,41 +1,45 @@
+/* Full partial */
 .write-us {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   padding: 90px 24px 90px 24px;
   background-image: url("../img/people/man-standing-1.jpeg");
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
-  min-width: 350px;
-  max-width: 2000px;
   width: 100%;
+  min-width: var(--contacts-page-min-width);
+  max-width: var(--contacts-page-max-width);
 }
 
+/* Main block */
 .write-us__container {
-  min-width: 272px;
-  max-width: 1170px;
   display: flex;
   flex: 1;
+  min-width: var(--contacts-block-min-width);
+  max-width: var(--contacts-block-max-width);
 }
+
+/* Right block */
 .write-us__form {
-  background-color: white;
-  padding: 35px 40px 35px 40px;
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: center;
+  background-color: var(--contacts-write-us-form-background);
+  padding: 35px 40px 35px 40px;
   .form-header {
     .header-text {
-      margin-bottom: 35px;
       font-family: "Saira", sans-serif;
       font-size: 38px;
       font-weight: 335;
       letter-spacing: calc(-0.03 * 1em);
       line-height: 1.1;
+      color: var(--contacts-write-us-form-title);
       text-align: center;
-      color: #323232;
+      margin-bottom: 35px;
     }
   }
   .form-form {
@@ -44,30 +48,30 @@
     row-gap: 25px;
     width: 100%;
     .form-item {
-      background-color: var(--contacts-form-item-back);
-      color: var(--contacts-form-item-text);
+      flex: 1;
+      text-align: left;
+      background-color: var(--contacts-write-us-form-item-back);
+      color: var(--contacts-write-us-form-item-text);
       font-family: var(--text-font-family);
       border: none;
-      padding: 10px 20px;
       font-size: 14px;
       text-decoration: none;
-      text-align: left;
       border-radius: 20px;
       line-height: 150%;
-      flex: 1;
+      padding: 10px 20px;
     }
     .form-input {
-      background-color: var(--contacts-form-item-back);
-      color: var(--contacts-form-item-text);
+      text-align: left;
+      background-color: var(--contacts-write-us-form-item-back);
+      color: var(--contacts-write-us-form-item-text);
       font-family: var(--text-font-family);
       border: none;
-      padding: 10px 20px;
       font-size: 14px;
       text-decoration: none;
-      text-align: left;
       border-radius: 20px;
       height: 150px;
       resize: vertical;
+      padding: 10px 20px;
     }
   }
   .form-button {
@@ -76,8 +80,8 @@
     width: 100%;
     .button {
       flex: 1;
-      background-color: var(--contacts-button-back);
-      color: var(--contacts-button-text);
+      background-color: var(--contacts-write-us-form-button-back);
+      color: var(--contacts-write-us-form-button-text);
       font-family: var(--text-font-family);
       border: none;
       padding: 10px 20px;
@@ -88,8 +92,8 @@
       transition: background-color 0.3s ease;
     }
     .button:hover {
-      background-color: var(--contacts-button-hover);
-      color: var(--contacts-button-text);
+      background-color: var(--contacts-write-us-form-button-hover);
+      color: var(--contacts-write-us-form-button-text);
     }
   }
 }
@@ -98,6 +102,8 @@
   .write-us {
     flex-direction: row;
     padding: 95px 32px 95px 32px;
+
+    /* Left block */
     .write-us__left {
       flex: 50%;
       margin-right: 36px;
