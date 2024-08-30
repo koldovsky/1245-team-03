@@ -98,6 +98,10 @@
   --contacts-button-hover: #323232;
   --contacts-form-item-back: #e4e4e4;
   --contacts-form-item-text: #7b7a7a;
+  --contacts-block-max-width: 1170px;
+  --contacts-block-min-width: 272px;
+  --contacts-page-max-width: 2500px;
+  --contacts-page-min-width: 350px;
 
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;
