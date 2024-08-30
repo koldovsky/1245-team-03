@@ -150,6 +150,17 @@
   --subscribe-background-color: rgba(0, 0, 0, 0.593);
   --subscribe-background-color-botton: rgba(255, 255, 255, 0.12);
 
+  --shopping-cart-text: #595452;
+  --shopping-cart-button: #ffffff;
+  --shopping-cart-accent: #ff0000;
+  --shopping-cart-form-background: rgba(33, 32, 32, 0.12);
+  --shopping-cart-form-outline: rgb(0, 128, 255);
+  --shopping-cart-hover: black;
+  --shopping-cart-icon-background-color: white;
+  --shopping-cart-icon-stroke: #212020;
+  --shopping-cart-icon-counter: #e04141;
+
+
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;
