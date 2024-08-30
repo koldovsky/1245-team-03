@@ -93,11 +93,14 @@
   --contacts-contacts-background: #212020;
   --contacts-contacts-title: #ffffff;
   --contacts-contacts-text: #c2c2c2;
-  --contacts-button-text: #ffffff;
-  --contacts-button-back: #e04141;
-  --contacts-button-hover: #323232;
-  --contacts-form-item-back: #e4e4e4;
-  --contacts-form-item-text: #7b7a7a;
+  
+  --contacts-write-us-form-background: #ffffff;
+  --contacts-write-us-form-title: #323232;
+  --contacts-write-us-form-button-text: #ffffff;
+  --contacts-write-us-form-button-back: #e04141;
+  --contacts-write-us-form-button-hover: #323232;
+  --contacts-write-us-form-item-back: #e4e4e4;
+  --contacts-write-us-form-item-text: #7b7a7a;
   --contacts-block-max-width: 1170px;
   --contacts-block-min-width: 272px;
   --contacts-page-max-width: 2000px;
