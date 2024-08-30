@@ -81,19 +81,23 @@
   --new-arrivals-card-price-color: #e04141;
 
   --notebooks-general-text: #ffffff;
-  --notebooks-box-shadow: #0000001a;
-  --notebooks-backround-color-cards: #ffffff;
-  --notebooks-button-color: #e04141;
-  --notebooks-title-text: #ffffff;
+  --notebooks-btn-border: #ffffff;
+  --notebooks-btn-hover: #e04141;
+  --notebooks-dots-backgroubd: #cccccc;
+  --notebooks-dots-hover: #e04141;
+  --notebooks-dots-active: #e04141;
+  --notebooks-caption-background: #ffffff;
+  --notebooks-element-link: #ffffff;
   --notebooks-product-name: #212020;
   --notebooks-cost-text: #e04141;
+  --notebooks-button-color: #e04141;
   --notebooks-button-text: #ffffff;
   --notebooks-button-hover: #000000;
 
   --contacts-contacts-background: #212020;
   --contacts-contacts-title: #ffffff;
   --contacts-contacts-text: #c2c2c2;
-  
+
   --contacts-write-us-form-background: #ffffff;
   --contacts-write-us-form-title: #323232;
   --contacts-write-us-form-button-text: #ffffff;
