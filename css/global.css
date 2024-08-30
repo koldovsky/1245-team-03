@@ -110,6 +110,11 @@
   --contacts-page-max-width: 2000px;
   --contacts-page-min-width: 350px;
 
+  --index-handmade-background: #ffffff;
+  --index-handmade-title: #212020;
+  --index-block-max-width: 1170px;
+  --index-block-min-width: 272px;
+
   --global-footer-background: #212020;
   --global-footer-icon: #ff4e4e;
 
