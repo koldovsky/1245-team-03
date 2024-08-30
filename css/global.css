@@ -112,6 +112,8 @@
 
   --index-handmade-background: #ffffff;
   --index-handmade-title: #212020;
+  --index-instagram-background: #ffffff;
+  --index-instagram-title: #212020;
   --index-block-max-width: 1170px;
   --index-block-min-width: 272px;
 
@@ -175,7 +177,6 @@
   --shopping-cart-icon-background-color: white;
   --shopping-cart-icon-stroke: #212020;
   --shopping-cart-icon-counter: #e04141;
-
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
