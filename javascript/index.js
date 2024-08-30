@@ -1,6 +1,7 @@
 function init() {
     import('./global.burger-menu.js');
     import('./index.why-us-carousel.js');
+    import('./index.gift-packs-carousel.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
