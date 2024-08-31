@@ -1,33 +1,42 @@
 <section class="gift-packs">
-  <h3 class="gift-packs__title">Gift Packs</h3>
-  <div class="gift-packs__carousel carousel">
-    <button class="carousel__button carousel__button--prev" aria-label="Previous pack">&#9664;</button>
-    <div class="carousel__track">
-      <article class="carousel__item">
-        <img src="img/gift-packs/the-big-vintage-pack.webp" alt="The Big Vintage Pack" class="carousel__image" />
-        <p class="carousel__caption">The Big Vintage Pack</p>
-      </article>
-      <article class="carousel__item">
-        <img src="img/gift-packs/summer-village-pack.webp" alt="The Summer Village Pack" class="carousel__image" />
-        <p class="carousel__caption">The Summer Village Pack</p>
-      </article>
-      <article class="carousel__item">
-        <img src="img/gift-packs/exotic-leather-pack.webp" alt="Exotic Leather Pack" class="carousel__image" />
-        <p class="carousel__caption">Exotic Leather Pack</p>
-      </article>
-      <article class="carousel__item">
-        <img src="img/gift-packs/floral-pack.webp" alt="The Big Floral Pack" class="carousel__image" />
-        <p class="carousel__caption">The Big Floral Pack</p>
-      </article>
-      <article class="carousel__item">
-        <img src="img/gift-packs/the-autumn-landscape-pack.webp" alt="The Autumn Landscape Pack" class="carousel__image" />
-        <p class="carousel__caption">The Autumn Landscape Pack</p>
-      </article>
-      <article class="carousel__item">
-        <img src="img/gift-packs/the-urban-view-pack.webp" alt="The Urban View Pack" class="carousel__image" />
-        <p class="carousel__caption">The Urban View Pack</p>
-      </article>
-    </div>
-    <button class="carousel__button carousel__button--next" aria-label="Next pack">&#9654;</button>
+  <div class="gift-packs__title-container">
+    <h2 class="gift-packs__title">Gift Packs</h2>
   </div>
+  <div  class="container giftpacks">
+    <button class="gift-packs-carousel__btn-prev"><svg
+      width="50"
+      height="50"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15 19L8 12L15 5"
+        stroke="grey"
+        stroke-width="1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg></button>
+    <div class="gift-packs-carousel__slides"></div>
+    <button class="gift-packs-carousel__btn-next">
+      <svg
+        width="50"
+        height="50"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5L16 12L9 19"
+          stroke="grey"
+          stroke-width="1"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+
+ 
 </section>
