@@ -2,6 +2,7 @@
   background-image: url(../img/custom-orders/castom-orders.jpeg);
   background-size: cover;
   background-position: left;
+  background-repeat: no-repeat;
 }
 
 .custom-orders-banner__container {
@@ -70,11 +71,14 @@
 }
 
 @media (min-width: 1441px) {
-
   .custom-orders-banner__container {
     padding: 20px 5px 90px 0;
     margin: auto;
     max-width: 350px;
-    transform: translateX(-20vw);
+    transform: translateX(-15vw);
+  }
+
+  .custom-orders-banner-background {
+    background-position: center top;
   }
 }
