@@ -26,7 +26,11 @@
   justify-content:center;
   gap:20px;
 }
-
+.gift-packs-carousel__btn-next,
+.gift-packs-carousel__btn-prev{
+  border: none;
+  background:none;
+}
 @media (min-width: 768px) {
   .gift-packs {
     padding: 40px;
