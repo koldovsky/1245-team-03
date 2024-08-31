@@ -42,3 +42,7 @@ const prevSlideClick = document.querySelector(".why-us-carousel__btn-prev");
 prevSlideClick.addEventListener("click", prevSlide);
 
 window.addEventListener("resize", renderSlides);
+
+// const title_toggle = document.querySelector(".why__us-title");
+// const toggler = () => title_toggle.classList.toggle("highlight");
+// setInterval(toggler,3000);

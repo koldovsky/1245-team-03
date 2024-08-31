@@ -1,4 +1,4 @@
-const galleryCaruselTrack = document.querySelector(".gallery__carusel");
+const galleryCarouselTrack = document.querySelector(".gallery__carousel");
 const galleryArrowPrev = document.querySelector(".gallery__arrow-prev-button");
 const galleryArrowNext = document.querySelector(".gallery__arrow-next-button");
 
@@ -16,7 +16,7 @@ let galleryCurrentId = 0;
 
 function updatePozition() {
   const itemById = document.querySelector(
-    `#gallery-carusel-item_${galleryCurrentId}`
+    `#gallery-carousel-item_${galleryCurrentId}`
   );
   const buttonById = document.querySelector(
     `#choose-button_${galleryCurrentId}`
@@ -37,7 +37,7 @@ function galleryScroll(direction) {
   } else if (galleryCurrentId < 4 && direction === "next") {
     galleryCurrentId++;
   }
-  galleryCaruselTrack.scrollTo({
+  galleryCarouselTrack.scrollTo({
     left: galleryItems[galleryCurrentId].offsetLeft,
   });
   galleryArows.forEach((arrow) => {
@@ -52,7 +52,7 @@ function galleryScroll(direction) {
 function galleryScrollByButtons(event) {
   const element = event.currentTarget;
   const index = element.id.match(/\d+/);
-  galleryCaruselTrack.scrollTo({ left: galleryItems[index].offsetLeft });
+  galleryCarouselTrack.scrollTo({ left: galleryItems[index].offsetLeft });
   galleryButtons.forEach((button) => {
     button.classList.add("gallery-disabled");
     button.classList.remove("gallery-button-active");
@@ -73,7 +73,7 @@ galleryButtons.forEach((button) => {
   button.addEventListener("click", galleryScrollByButtons);
 });
 window.addEventListener("resize", () => {
-  galleryCaruselTrack.scrollTo({
+  galleryCarouselTrack.scrollTo({
     left: galleryItems[galleryCurrentId].offsetLeft,
   });
 });

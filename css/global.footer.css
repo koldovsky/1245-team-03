@@ -1,5 +1,17 @@
-footer {
+/* footer {
+  display: flex;
+  justify-content: center; 
+}
+
+.global__footer {
   background-color: var(--global-footer-background);
+  display: flex;
+  max-width: 2000px;
+  width: 100%;
+  justify-content: center; 
+} */
+.global__footer {
+  background-color: var(--global-footer-background) !important;
 }
 .footer__container {
   background-color: var(--global-footer-background);
@@ -9,9 +21,8 @@ footer {
   text-align: center;
   padding: 20px;
   height: auto;
-  position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  position: relative;
 }
 
 .footer__title-container {
@@ -180,8 +191,8 @@ footer {
   .footer__container {
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 0;
     padding-right: 0;
     align-items: center;

@@ -2,43 +2,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-  font-family: "Saira", sans-serif;
+  background-color: var(--index-instagram-background);
+  font-family: var(--title-font-family);
+  padding: 40px 24px 90px 24px;
 }
 
 .instagram__header {
   align-items: center;
   width: 100%;
-  min-width: 272px;
-  max-width: 1170px;
+  min-width: var(--index-block-min-width);
+  max-width: var(--index-block-max-width);
 
   .header-text-link {
     text-decoration: none;
   }
 
   .header-text {
+    text-align: center;
     font-size: 38px;
     font-weight: 340;
     letter-spacing: calc(-0.029 * 1em);
     line-height: 1.1;
-    color: #212020;
-    text-align: center;
+    color: var(--index-instagram-title);
     margin-bottom: 43px;
   }
 }
 
 .instagram__content {
-  text-align: center;
-  width: 100%;
-  min-width: 272px;
-  max-width: 1170px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  min-width: var(--index-block-min-width);
+  max-width: var(--index-block-max-width);
   row-gap: 30px;
   .content-part {
     display: flex;
@@ -55,20 +52,18 @@
     }
   }
 }
-@media (min-width: 480px){
-  .instagram__content{
+@media (min-width: 480px) {
+  .instagram__content {
     row-gap: 30px;
-    .content-part{
-      column-gap: 30px;
+    .content-part {
       flex-direction: row;
+      column-gap: 30px;
     }
   }
 }
 @media (min-width: 768px) {
   .instagram {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 95px;
+    padding: 40px 32px 95px 32px;
   }
 
   .instagram__header {
@@ -80,9 +75,7 @@
 
 @media (min-width: 992px) {
   .instagram {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 100px;
+    padding: 40px 40px 100px 40px;
   }
 
   .instagram__header {
@@ -91,8 +84,8 @@
     }
   }
 
-  .instagram__content{
-    column-gap: 30px;
+  .instagram__content {
     flex-direction: row;
+    column-gap: 30px;
   }
 }
