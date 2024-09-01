@@ -182,6 +182,10 @@
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;
+
+  /*sizes*/
+  --section-max-width: 4000px;
+  --content-max-width: 1200pz;
   scroll-behavior: smooth;
 }
 
