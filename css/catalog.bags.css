@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     margin: 0;
     background-color: #ebebeb;
-    padding: 80px 0 80px 0;
+    padding: 80px 0 90px 0;
 }
 
 .catalog-bags__page-container {
@@ -43,6 +43,8 @@
         min-width: 272px;
         min-height: 230.16px;
         height: 80dvi;
+        height: auto;
+        object-fit: cover;
 
         .catalog-bags__image-holders{
             width: 100%;
