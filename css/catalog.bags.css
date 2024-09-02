@@ -8,8 +8,15 @@
     padding: 80px 0 80px 0;
 }
 
-.catalog-bags__section-title {
+.catalog-bags__page-container {
     padding: 0 24px;
+}
+
+.catalog-bags__section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .catalog-bags__title-text {
@@ -53,7 +60,7 @@
     font-style: italic;
     font-family: var(--text-font-family);
     color: var(--catalog-bags-element-text);
-    margin: 0 10 px;
+    margin: 0;
 }
 
 .catalog-bags__container-button {
@@ -80,41 +87,41 @@
     width: 179.48px;
     height: 39px;
     background-color: transparent;
-    border: 2px solid var(--catalog-bags-left-button-border);
-    color: var(--catalog-bags-left-button-text);
+    border: 2px solid var(--catalog-notebooks-left-button-border);
+    color: var(--catalog-notebooks-left-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
 }
 
 .catalog-bags__transparent-button:active {
-    background-color: var(--catalog-bags-left-button-background-hover);
-    color: var(--catalog-bags-left-button-text-hover);
+    background-color: var(--catalog-notebooks-left-button-background-hover);
+    color: var(--catalog-notebooks-left-button-text-hover);
 }
 
 .catalog-bags__transparent-button:hover {
-    background-color: var(--catalog-bags-right-button-background);
+    background-color: var(--catalog-notebooks-right-button-background);
 }
 
 .catalog-bags__red-button {
     width: 121.21px;
     height: 39px;
-    background-color: var(--catalog-bags-right-button-background);
+    background-color: var(--catalog-notebooks-right-button-background);
     border: none;
-    color: var(--catalog-bags-right-button-text);
+    color: var(--catalog-notebooks-right-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
 }
 
 .catalog-bags__red-button:active {
-    background-color: var(--catalog-bags-right-button-text-hover);
-    color: var(--catalog-bags-right-button-background-hover);
+    background-color: var(--catalog-notebooks-right-button-text-hover);
+    color: var(--catalog-notebooks-right-button-background-hover);
 }
 
 .catalog-bags__red-button:hover {
-    background-color: var(--catalog-bags-right-button-text-hover);
-    color: var(--catalog-bags-right-button-background-hover);
+    background-color: var(--catalog-notebooks-right-button-text-hover);
+    color: var(--catalog-notebooks-right-button-background-hover);
 }
 
 @media (min-width: 480px) {
