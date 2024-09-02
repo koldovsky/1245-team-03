@@ -5,6 +5,7 @@
     background-color: transparent;
     background-repeat: no-repeat;
     margin: 0;
+    background-color: #ebebeb;
     padding: 80px 0 80px 0;
 }
 
@@ -120,8 +121,8 @@
 }
 
 .catalog-bags__red-button:hover {
-    background-color: var(--catalog-notebooks-right-button-text-hover);
-    color: var(--catalog-notebooks-right-button-background-hover);
+    background-color: var(--catalog-bags-right-button-text-hover);
+    color: var(--catalog-bags-right-button-background-hover);
 }
 
 @media (min-width: 480px) {

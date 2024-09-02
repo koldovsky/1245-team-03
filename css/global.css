@@ -154,7 +154,9 @@
   --catalog-notebooks-right-button-text-hover: #ffffff;
   --catalog-notebooks-right-button-background-hover: #000000;
 
-  --catalog-bags-left-button-text: #212020;
+  --catalog-bags-left-button-text: #212020; 
+  --catalog-bags-right-button-text-hover: #000000;
+  --catalog-bags-right-button-background-hover: #ffffff;
 
   --support-ukraine-title: #ffffff;
   --support-ukraine-description: #c2c2c2;
