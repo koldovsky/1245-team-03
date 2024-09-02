@@ -88,7 +88,7 @@
     height: 39px;
     background-color: transparent;
     border: 2px solid var(--catalog-notebooks-left-button-border);
-    color: var(--catalog-notebooks-left-button-text);
+    color: var(--catalog-bags-left-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
