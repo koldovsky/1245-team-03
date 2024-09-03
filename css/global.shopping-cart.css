@@ -244,6 +244,7 @@
   width: 80%;
   height: fit-content;
   margin: 0 0 0 50px;
+  font-size: 14px;
 }
 .shopping-cart__products-list li p {
   font-size: 15px;
@@ -268,8 +269,8 @@
   background-color: var(--shopping-cart-form-background);
   position: relative;
 }
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+.shopping-cart__input-number::-webkit-inner-spin-button,
+.shopping-cart__input-number::-webkit-outer-spin-button {
   opacity: 1;
   display: block;
 }

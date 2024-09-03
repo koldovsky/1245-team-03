@@ -89,8 +89,6 @@ function renderProducts(event) {
       indx = element.id.match(/\d+/)
     }
   });
-  console.log(indx);
-
   const productImage = products[indx].image;
   const productTitle = products[indx].title;
   const productPrice = products[indx].price;
