@@ -9,19 +9,12 @@
     padding: 80px 0 80px 0;
 }
 
-.catalog-holders__page-container {
+.catalog-holders__section-title {
     padding: 0 24px;
 }
 
-.catalog-holders__section-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .catalog-holders__title-text {
-    color: var(--catalog-notebooks-title-text);
+    color: var(--catalog-holders-title-text);
     font-size: 38px;
     font-family: var(--title-font-family);
     padding-bottom: 40px;
@@ -60,7 +53,7 @@
     font-size: 18px;
     font-style: italic;
     font-family: var(--text-font-family);
-    color: var(--catalog-notebooks-element-text);
+    color: var(--catalog-holders-element-text);
     margin: 0 10 px;
 }
 
@@ -88,41 +81,41 @@
     width: 179.48px;
     height: 39px;
     background-color: transparent;
-    border: 2px solid var(--catalog-notebooks-left-button-border);
-    color: var(--catalog-notebooks-left-button-text);
+    border: 2px solid var(--catalog-holders-left-button-border);
+    color: var(--catalog-holders-left-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
 }
 
 .catalog-holders__transparent-button:active {
-    background-color: var(--catalog-notebooks-left-button-background-hover);
-    color: var(--catalog-notebooks-left-button-text-hover);
+    background-color: var(--catalog-holders-left-button-background-hover);
+    color: var(--catalog-holders-left-button-text-hover);
 }
 
 .catalog-holders__transparent-button:hover {
-    background-color: var(--catalog-notebooks-right-button-background);
+    background-color: var(--catalog-holders-right-button-background);
 }
 
 .catalog-holders__red-button {
     width: 121.21px;
     height: 39px;
-    background-color: var(--catalog-notebooks-right-button-background);
+    background-color: var(--catalog-holders-right-button-background);
     border: none;
-    color: var(--catalog-notebooks-right-button-text);
+    color: var(--catalog-holders-right-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
 }
 
 .catalog-holders__red-button:active {
-    background-color: var(--catalog-notebooks-right-button-text-hover);
-    color: var(--catalog-notebooks-right-button-background-hover);
+    background-color: var(--catalog-holders-right-button-text-hover);
+    color: var(--catalog-holders-right-button-background-hover);
 }
 
 .catalog-holders__red-button:hover {
-    background-color: var(--catalog-notebooks-right-button-text-hover);
-    color: var(--catalog-notebooks-right-button-background-hover);
+    background-color: var(--catalog-holders-right-button-text-hover);
+    color: var(--catalog-holders-right-button-background-hover);
 }
 
 @media (min-width: 480px) {

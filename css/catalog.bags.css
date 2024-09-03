@@ -5,19 +5,11 @@
     background-color: transparent;
     background-repeat: no-repeat;
     margin: 0;
-    background-color: #ebebeb;
-    padding: 80px 0 90px 0;
-}
-
-.catalog-bags__page-container {
-    padding: 0 24px;
+    padding: 80px 0 80px 0;
 }
 
 .catalog-bags__section-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 0 24px;
 }
 
 .catalog-bags__title-text {
@@ -43,8 +35,6 @@
         min-width: 272px;
         min-height: 230.16px;
         height: 80dvi;
-        height: auto;
-        object-fit: cover;
 
         .catalog-bags__image-holders{
             width: 100%;
@@ -63,7 +53,7 @@
     font-style: italic;
     font-family: var(--text-font-family);
     color: var(--catalog-bags-element-text);
-    margin: 0;
+    margin: 0 10 px;
 }
 
 .catalog-bags__container-button {
@@ -90,7 +80,7 @@
     width: 179.48px;
     height: 39px;
     background-color: transparent;
-    border: 2px solid var(--catalog-notebooks-left-button-border);
+    border: 2px solid var(--catalog-bags-left-button-border);
     color: var(--catalog-bags-left-button-text);
     cursor: pointer;
     border-radius: 30px;
@@ -98,28 +88,28 @@
 }
 
 .catalog-bags__transparent-button:active {
-    background-color: var(--catalog-notebooks-left-button-background-hover);
-    color: var(--catalog-notebooks-left-button-text-hover);
+    background-color: var(--catalog-bags-left-button-background-hover);
+    color: var(--catalog-bags-left-button-text-hover);
 }
 
 .catalog-bags__transparent-button:hover {
-    background-color: var(--catalog-notebooks-right-button-background);
+    background-color: var(--catalog-bags-right-button-background);
 }
 
 .catalog-bags__red-button {
     width: 121.21px;
     height: 39px;
-    background-color: var(--catalog-notebooks-right-button-background);
+    background-color: var(--catalog-bags-right-button-background);
     border: none;
-    color: var(--catalog-notebooks-right-button-text);
+    color: var(--catalog-bags-right-button-text);
     cursor: pointer;
     border-radius: 30px;
     transition: background-color .3s, color .3s;
 }
 
 .catalog-bags__red-button:active {
-    background-color: var(--catalog-notebooks-right-button-text-hover);
-    color: var(--catalog-notebooks-right-button-background-hover);
+    background-color: var(--catalog-bags-right-button-text-hover);
+    color: var(--catalog-bags-right-button-background-hover);
 }
 
 .catalog-bags__red-button:hover {

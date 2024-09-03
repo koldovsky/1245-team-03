@@ -1,0 +1,82 @@
+[
+  {
+    "title": "<h4>Handmade Leather Notebook</h4>",
+    "image": "<img src=\"./img/products/handmade-leather-notebook.jpg\" alt=\"Handmade Leather Notebook\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>84.00</p>"
+  },
+  {
+    "title": "<h4>Brown Leather Wallet</h4>",
+    "image": "<img src=\"./img/products/brown-leather-wallet.jpg\" alt=\"Brown Leather Wallet\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>86.00</p>"
+  },
+  {
+    "title": "<h4>Brown Business Folder</h4>",
+    "image": "<img src=\"./img/products/brown-business-folder.jpg\" alt=\"Brown Business Folder\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>84.00</p>"
+  },
+  {
+    "title": "<h4>Big Brown Leather Bag</h4>",
+    "image": "<img src=\"./img/products/big-brown-leather-bag.jpg\" alt=\"Big Brown Leather Bag\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>124.00</p>"
+  },
+  {
+    "title": "<h4>Stylish Brown Briefcase</h4>",
+    "image": "<img src=\"./img/products/stylish-brown-briefcase.jpg\" alt=\"Stylish Brown Briefcase\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>200.00</p>"
+  },
+  {
+    "title": "<h4>Three-Color Leather Purse</h4>",
+    "image": "<img src=\"./img/products/three-color-leather-purse.jpg\" alt=\"Three-Color Leather Purse\" class=\"shopping-cart__product-image\"/>",
+    "price": "<p>90.00</p>"
+  },
+  {
+    "title": "<h4>The M.T. Morton Traveler</h4>",
+    "image": "<img src=\"./img/products/the-m-t-morton-traveler.jpg\" alt=\"The M.T. Morton Traveler\" class=\"shopping-cart__product-image\">",
+    "price": "<p>370.00</p>"
+  },
+  {
+    "title": "<h4>The Old Classic Leather Wallet</h4>",
+    "image": "<img src=\"./img/products/the-old-classic-leather-wallet.jpg\" alt=\"The Old Classic Leather Wallet\" class=\"shopping-cart__product-image\">",
+    "price": "<p>43.00</p>"
+  },
+  {
+    "title": "<h4>The Prometheus Case</h4>",
+    "image": "<img src=\"./img/products/the-prometheus-case.jpg\" alt=\"The Prometheus Case\" class=\"shopping-cart__product-image\">",
+    "price": "<p>84.00</p>"
+  },
+  {
+    "title": "<h4>The Norma Leather Tote</h4>",
+    "image": "<img src=\"./img/products/the-norma-leather-tote.jpg\" alt=\"The Norma Leather Tote\" class=\"shopping-cart__product-image\">",
+    "price": "<p>325.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Deer</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-deer.jpeg\" alt=\"Leather Notebook Deer\">",
+    "price": "<p>60.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Cat</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-cat.jpeg\" alt=\"Leather Notebook Cat\">",
+    "price": "<p>80.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Bear</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-deer.jpeg\" alt=\"Leather Notebook Deer\">",
+    "price": "<p>80.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Owl</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-owl.jpeg\" alt=\"Leather Notebook Owl\">",
+    "price": "<p>65.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Raccon</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-raccon.jpeg\" alt=\"Leather Notebook Raccon\">",
+    "price": "<p>65.00</p>"
+  },
+  {
+    "title": "<h4>Leather Notebook Bird</h4>",
+    "image": "<img class=\"shopping-cart__product-image\" src=\"./img/notebooks/leather-notebook-bird.jpeg\" alt=\"Leather Notebook Bird\">",
+    "price": "<p>90.00</p>"
+  }
+]
