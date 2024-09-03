@@ -6,7 +6,8 @@ const _items = [
             title: "Leather Notebook Deer",
             image: "img/notebooks/leather-notebook-deer.jpeg",
             price: "$60.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-10"
         }
     },
     {
@@ -14,7 +15,8 @@ const _items = [
             title: "Handmade leather Notebook",
             image: "img/notebooks/handmade-leather-notebook.jpeg",
             price: "$84.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-0"
         }
     },
     {
@@ -22,7 +24,8 @@ const _items = [
             title: "Leather Notebook Cat",
             image: "img/notebooks/leather-notebook-cat.jpeg",
             price: "$80.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-11"
         }
     },
     {
@@ -30,7 +33,8 @@ const _items = [
             title: "Leather Notebook Bear",
             image: "img/notebooks/leather-notebook-bear.jpeg",
             price: "$80.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-12"
         }
     },
     {
@@ -38,7 +42,8 @@ const _items = [
             title: "Leather Notebook Owl",
             image: "img/notebooks/leather-notebook-owl.jpeg",
             price: "$65.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-13"
         }
     },
     {
@@ -46,7 +51,8 @@ const _items = [
             title: "Leather Notebook Raccon",
             image: "img/notebooks/leather-notebook-raccon.jpeg",
             price: "$65.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-14"
         }
     },
     {
@@ -54,7 +60,8 @@ const _items = [
             title: "Leather Notebook Bird",
             image: "img/notebooks/leather-notebook-bird.jpeg",
             price: "$90.00",
-            button: "Buy"
+            button: "Buy",
+            id: "product-15"
         }
     }
 ];
@@ -115,7 +122,7 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
                     <p class="notebooks__element-price">{item.player.price}</p>
                 </div>
                 <div class="notebooks__element-button">
-                    <a href="#" class="notebooks__button">{item.player.button}</a>
+                    <a href="#" class="notebooks__button shopping-cart__button-key-class" id={item.player.id}>{item.player.button}</a>
                 </div>
             </div>
         </li>

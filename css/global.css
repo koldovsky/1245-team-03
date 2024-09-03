@@ -182,6 +182,8 @@
   --shopping-cart-icon-background-color: white;
   --shopping-cart-icon-stroke: #212020;
   --shopping-cart-icon-counter: #e04141;
+  --shopping-cart-dark: rgba(0,0,0,.7);
+  --shopping-cart-background: white;
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
