@@ -82,39 +82,45 @@ function validateOrderForm() {
     cartIcon.classList.add("shopping-cart__none");
   }
 }
-function renderProducts(event) {
+
+function renderProducts(event, call) {
   let indx;
-  productButtons.forEach((element) => {
-    if(event.target.id === element.id){
-      indx = element.id.match(/\d+/)
-    }
-  });
-  const productImage = products[indx].image;
-  const productTitle = products[indx].title;
-  const productPrice = products[indx].price;
-
   showCartIcon();
+  if (call !== "takeFromStorage") {
+    productButtons.forEach((element) => {
+      if (event.target.id === element.id) {
+        indx = element.id.match(/\d+/);
+      }
+    });
+    const productImage = products[indx].image;
+    const productTitle = products[indx].title;
+    const productPrice = products[indx].price;
 
-  const existingListElement = Array.from(
-    productsList.querySelectorAll("li")
-  ).find(
-    (li) =>
-      li.querySelector("input").getAttribute("data-id") === indx.toString()
-  );
+    const existingListElement = Array.from(
+      productsList.querySelectorAll("li")
+    ).find(
+      (li) =>
+        li.querySelector("input").getAttribute("data-id") === indx.toString()
+    );
 
-  if (existingListElement) {
-    const inputElement = existingListElement.querySelector("input");
-    inputElement.value = parseInt(inputElement.value) + 1;
-  } else {
-    const newListElement = document.createElement("li");
-    newListElement.dataset.id = indx;
-    newListElement.innerHTML = `
+    if (existingListElement) {
+      const inputElement = existingListElement.querySelector("input");
+      inputElement.value = parseInt(inputElement.value) + 1;
+      localStorage.setItem(`value-${indx}`, inputElement.value);
+    } else {
+      const newListElement = document.createElement("li");
+      newListElement.dataset.id = indx;
+      newListElement.innerHTML = `
       ${productImage}
       ${productTitle}
       ${productPrice.slice(0, 3) + "$" + productPrice.slice(3)}
       <input type='number' value=1 min=1 class='shopping-cart__input-number' data-id='${indx}'><svg width="14" height="18" fill="none" class="shopping-cart__product-list_basket-svg" data-id='${indx}'><path fill-rule="evenodd" clip-rule="evenodd" d="M10 2h3.6c.2 0 .4.2.4.4v1.2c0 .2-.2.4-.4.4H.4C.2 4 0 3.9 0 3.6V2.4c0-.2.2-.4.4-.3h3.7V2L4.9.3c.1-.2.2-.3.4-.3h3.5c.1 0 .3.1.4.2l.8 1.7V2zM1.8 16.1c.1 1 1 1.9 2 1.9h6.3c1.1 0 1.9-.8 2-1.9l1-11.1H1l.8 11.1zM12 6l-.8 10.1c0 .5-.5.9-1 .9H3.8c-.5 0-1-.4-1-.9L2 6h10zM5 8.1h1v6H5v-6zm4 0H8v6h1v-6z" fill="#9199AB"></path></svg>`;
-    productsList.appendChild(newListElement);
+      localStorage.setItem(`Product-${indx}`, newListElement.innerHTML);
+      localStorage.setItem(`value-${indx}`, 1);
+      productsList.appendChild(newListElement);
+    }
   }
+  if (localStorage.length !== 0) addStagedProducts();
   let productsLiElements = Array.from(
     document.querySelectorAll(".shopping-cart__products-list li")
   );
@@ -122,13 +128,19 @@ function renderProducts(event) {
     let counter = 0;
     let totalValue = 0;
     productsLiElements.forEach((li) => {
-      const listElementValue = li.querySelector("input").value;
+      const listElementInput = li.querySelector("input");
       const listElementPrice = li.querySelector("p").innerText;
-      totalValue += +listElementValue;
+      totalValue += +listElementInput.value;
       totalValue < 9
         ? (cartCounter.innerText = totalValue)
         : (cartCounter.innerText = "9+");
-      counter += +(listElementPrice.slice(1, 5) * listElementValue).toFixed(2);
+      counter += +(
+        listElementPrice.slice(1, 5) * listElementInput.value
+      ).toFixed(2);
+      localStorage.setItem(
+        `value-${listElementInput.dataset.id}`,
+        listElementInput.value
+      );
     });
     cartTotal.innerText = `Total: $${counter.toFixed(2)}`;
     if (productsLiElements.length === 0) {
@@ -145,6 +157,10 @@ function renderProducts(event) {
     cartSection.querySelectorAll(".shopping-cart__product-list_basket-svg")
   );
   function deleteProduct(event) {
+    localStorage.removeItem(`Product-${event.currentTarget.dataset.id}`);
+    localStorage.removeItem(`value-${event.currentTarget.dataset.id}`);
+    console.log(event.currentTarget.dataset.id);
+    
     event.target.closest("li").remove();
     productsLiElements = Array.from(
       document.querySelectorAll(".shopping-cart__products-list li")
@@ -154,8 +170,24 @@ function renderProducts(event) {
   productBasket.forEach((basket) => {
     basket.addEventListener("click", deleteProduct);
   });
-}
 
+  function addStagedProducts() {
+    for (let i = 0; i < 15; i++) {
+      const newProduct = localStorage.getItem(`Product-${i}`);
+      const newValue = localStorage.getItem(`value-${i}`);
+      if (newProduct && newValue) {
+        const newLi = document.createElement("li");
+        newLi.innerHTML = newProduct;
+        if (call === "takeFromStorage") {
+          productsList.appendChild(newLi);
+        }
+        const newInput = newLi.querySelector("input");
+        newInput.value = newValue;
+      }
+      showCartIcon();
+    }
+  }
+}
 productButtons.forEach((button) => {
   button.addEventListener("click", renderProducts);
 });
@@ -196,3 +228,4 @@ cartInput.forEach((input) => {
     input.classList.remove("validation-failed");
   });
 });
+renderProducts(null, "takeFromStorage");
