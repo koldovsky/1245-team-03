@@ -109,20 +109,20 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
     return (
         <li className="carousel__slide-item" style={item.styles}>
             <div className="carousel__slide-item-img-link">
-                <a class="notebooks__element-link" href="#">
-                    <img class="notebooks__element-image" src={item.player.image}
+                <a className="notebooks__element-link" href="#">
+                    <img className="notebooks__element-image" src={item.player.image}
                         alt={item.player.title} />
                 </a>
             </div>
-            <div class="carousel-caption">
-                <div class="notebooks__element-name">
-                    <p class="notebooks__element-text">{item.player.title}</p>
+            <div className="carousel-caption">
+                <div className="notebooks__element-name">
+                    <p className="notebooks__element-text">{item.player.title}</p>
                 </div>
-                <div class="notebooks__element-cost">
-                    <p class="notebooks__element-price">{item.player.price}</p>
+                <div className="notebooks__element-cost">
+                    <p className="notebooks__element-price">{item.player.price}</p>
                 </div>
-                <div class="notebooks__element-button">
-                    <a href="#" class="notebooks__button shopping-cart__button-key-class" id={item.player.id}>{item.player.button}</a>
+                <div className="notebooks__element-button">
+                    <a className="notebooks__button shopping-cart__button-key-class" id={item.player.id}>{item.player.button}</a>
                 </div>
             </div>
         </li>
