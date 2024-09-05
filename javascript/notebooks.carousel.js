@@ -126,7 +126,6 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
         <div class="notebooks__element-button">
           <a
             role="button"
-            href="#"
             class="notebooks__button shopping-cart__button-key-class"
             id={item.player.id}
           >
