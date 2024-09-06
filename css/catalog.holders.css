@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-image: url("../img/catalog/catalog-background-image.webp");
     margin: 0;
-    padding: 80px 0 80px 0;
+    padding: 80px 0 90px 0;
 }
 
 .catalog-holders__page-container {
@@ -61,7 +61,7 @@
     font-style: italic;
     font-family: var(--text-font-family);
     color: var(--catalog-notebooks-element-text);
-    margin: 0 10 px;
+    margin: 0;
 }
 
 .catalog-holders__container-button {
@@ -139,6 +139,8 @@
 
     .catalog-holders__element:nth-child(1) {
         grid-column: 1;
+        
+    
     }
 
     .catalog-holders__element:nth-child(2) {
@@ -149,6 +151,9 @@
         grid-column: 1 / -1;
         display: flex;
         justify-content: center;
+        max-width: 50%;
+        grid-column: 1 / -1;
+        justify-self: center
     }
 
     .catalog-holders__element {
