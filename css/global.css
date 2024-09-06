@@ -194,6 +194,8 @@
   --shopping-cart-icon-background-color: white;
   --shopping-cart-icon-stroke: #212020;
   --shopping-cart-icon-counter: #e04141;
+  --shopping-cart-dark: rgba(0,0,0,.7);
+  --shopping-cart-background: white;
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
@@ -201,7 +203,7 @@
 
   /*sizes*/
   --global-section-max-width: 4000px;
-  --global-content-max-width: 1200pz;
+  --global-content-max-width: 1200px;
   scroll-behavior: smooth;
 }
 
