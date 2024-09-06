@@ -1,5 +1,5 @@
 .third_block {
-  background-color: #ebebeb;
+  background-color: var(--our-story-third-block-background-color);
   padding: 80px 0 100px;
 }
 
@@ -7,12 +7,14 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .fifth__block-title {
   font-size: 50px !important;
   font-family: var(--title-font-family) !important;
   font-weight: 400;
-  color: #212020;
+  color: var(--our-story-h3-color);
 }
+
 .third_block_team_section {
   display: flex;
   justify-content: center;
@@ -28,10 +30,10 @@
 
 .team_member {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--index-handmade-background);
   border-radius: 10px;
   width: 30%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px var(--our-story-third-block-box-shadow);
 }
 
 .team_member-image {
@@ -46,7 +48,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 0; 
+  object-position: center 0;
 }
 
 .team_member h3 {
@@ -54,12 +56,12 @@
   font-size: 34px;
   font-family: var(--title-font-family);
   font-weight: 400;
-  color: #212020;
+  color: var(--our-story-h3-color);
 }
 
 .team_member h4 {
   margin-bottom: 15px;
-  color: #777777;
+  color: var(--our-story-h4-color);
   font-size: 13px;
   font-family: var(--text-font-family);
   font-weight: 400;
@@ -70,16 +72,38 @@
   font-size: 15px;
   font-family: var(--text-font-family);
   font-weight: 400;
-  color: rgb(89, 84, 82);
-}
-/* .team_member:nth-child(2) .team_member-image img {
-  transform: translateY(40px);
+  color: var(--our-story-p-color);
 }
 
-.team_member:nth-child(3) .team_member-image img {
-  transform: translateY(40px);
-} */
-/* .team_member:nth-child(1) .team_member-image img {
-    transform: translateY(10px);
-  } 
-   */
+@media (max-width: 480px) {
+  .team_member-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  .team_member {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+  .team_member-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+
+  .team_member {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .team_member:nth-child(3) {
+    width: 45%;
+    margin: 0 auto 20px;
+  }
+}
