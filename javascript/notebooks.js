@@ -1,6 +1,7 @@
 function init() {
     import('./global.burger-menu.js');
     import('./global.shopping-cart.js');
+    import('./global.shopping-cart.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

@@ -1,5 +1,4 @@
 function init() {
-    import('./custom-orders.gallary.js');
     import('./global.shopping-cart.js');
 }
 
