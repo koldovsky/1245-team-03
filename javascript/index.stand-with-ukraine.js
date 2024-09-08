@@ -17,3 +17,4 @@ let countdown = setInterval(function() {
         document.getElementById("countdown-timer").innerHTML = "Fundraising is complete";
     }
 }, 1000);
+
