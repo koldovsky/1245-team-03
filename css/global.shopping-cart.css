@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 200;
   background-color: var(--shopping-cart-dark);
   font-family: var(--text-font-family);
   font-size: 14px;
@@ -178,7 +178,7 @@
   height: 50px;
   cursor: pointer;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
-  margin: 50px 20px 0 0;
+  margin: 100px 27px 0 0;
   z-index: 0;
 }
 .shopping-cart__icon-svg {
@@ -296,6 +296,7 @@
   .shopping-cart__icon-wrapper {
     width: 80px;
     height: 80px;
+    margin: 50px 20px 0 0;
   }
   .shopping-cart__icon-svg {
     width: 36px;
