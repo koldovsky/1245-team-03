@@ -10,6 +10,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
+    max-width: var(--global-content-max-width);
 }
 
 .support-ukraine__header {
