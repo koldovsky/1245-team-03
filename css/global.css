@@ -207,6 +207,202 @@
   scroll-behavior: smooth;
 }
 
+/* Змінні для темної теми */
+:root[data-bs-theme="dark"] {
+  --header-nav-background: #121212;
+  --header-nav-text-logo: #ffffff;
+  --header-nav-text-menu: #e0e0e0;
+  --header-nav-element-link-hover: #ff6161;
+  --header-nav-list-link-hover: #ff6161;
+  --header-nav-element-link-after: #ff6161;
+  --header-nav-list-link-after: #ff6161;
+  --header-nav-element-link-active: #ff6161;
+  --header-nav-dropdown-menu: #1f1f1f;
+  --header-nav-dropdown-menu-hover: #ff6161;
+  --header-nav-dropdown-menu-element-link: #ffffff;
+  --header-nav-dropdown-menu-element-link-hover: #ff6161;
+  --header-nav-svg-hover: #ff6161;
+  --header-nav-svg-hover-dropdown: #ff6161;
+  --header-nav-background-burger: #1f1f1f;
+  --header-nav-background-burger-wrapper: #1f1f1f;
+  --header-nav-line-wrapper: #ffffff;
+  --header-nav-background-active: #1f1f1f;
+
+  --header-hero-background-color: #242424;
+  --header-hero-button: #ff4c4c;
+  --header-hero-button-click: #ffffff;
+  --header-hero-button-text: #000000;
+  --header-hero-text-color: #e0e0e0;
+
+  --collections-text: #e0e0e0;
+  --collections-item-heading: #ff6161;
+  --collections-link-container-border: #e0e0e0;
+  --collections-link-container-background: #1f1f1f;
+  --collections-link-text-hover: #ffffff;
+
+  --products-background-color: #1a1a1a;
+  --shop-products-background-color: #242424;
+  --products-text-color: #e0e0e0;
+  --products-card-background-color: #1f1f1f;
+  --products-card-price-color: #ff6161;
+
+  --custom-orders-galery-background: #1f1f1f;
+  --custom-orders-gallery-heading: #e0e0e0;
+  --custom-orders-gallery-button: #666666;
+  --custom-orders-gallery-button-hover: #ffffff;
+
+  --gift-packs-gift-packs-background: #1f1f1f;
+  --gift-packs-custom-gift-pack__form-h2: #ffffff;
+  --gift-packs-carousel__button-color: #999999;
+  --gift-packs-carousel__button-background: #333333;
+  --custom-gift-pack__form-button-background-color: #ff4c4c;
+  --custom-gift-pack__form-p-color: #e0e0e0;
+  --custom-gift-pack-background-color: #1f1f1f;
+  --custom-gift-pack__form-label: #e0e0e0;
+  --custom-gift-pack__form-button: #000000;
+  --custom-gift-pack__form-button-submit: #ffffff;
+  --index-gift-pack-carousel__button-background-color: #333333;
+
+  --custom-orders-banner-title-color: #ffffff;
+  --custom-orders-banner-text-color: #a6a6a6;
+  --custom-orders-banner-bottom-border-color: #ff6161;
+  --custom-orders-banner-bottom-text-color: #e0e0e0;
+  --custom-orders-banner-bottom-hover-backgroun-color: #ff6161;
+  --custom-orders-banner-bottom-hover-text-color: #ffffff;
+  --custom-orders-banner-bottom-active-text-color: #e0e0e0;
+  --custom-orders-branding-process-title-color: #ffffff;
+
+  --new-arrivals-background-color: #121212;
+  --new-arrivals-text-color: #ffffff;
+  --new-arrivals-card-background-color: #1f1f1f;
+  --new-arrivals-card-text-color: #e0e0e0;
+  --new-arrivals-card-price-color: #ff6161;
+
+  --notebooks-general-text: #e0e0e0;
+  --notebooks-btn-border: #ffffff;
+  --notebooks-btn-hover: #ff6161;
+  --notebooks-dots-backgroubd: #666666;
+  --notebooks-dots-hover: #ff6161;
+  --notebooks-dots-active: #ff6161;
+  --notebooks-caption-background: #1f1f1f;
+  --notebooks-element-link: #ffffff;
+  --notebooks-product-name: #e0e0e0;
+  --notebooks-cost-text: #ff6161;
+  --notebooks-button-color: #ff6161;
+  --notebooks-button-text: #ffffff;
+  --notebooks-button-hover: #ffffff;
+
+  --contacts-contacts-background: #1f1f1f;
+  --contacts-contacts-title: #ffffff;
+  --contacts-contacts-text: #c2c2c2;
+
+  --contacts-write-us-form-background: #1f1f1f;
+  --contacts-write-us-form-title: #e0e0e0;
+  --contacts-write-us-form-button-text: #000000;
+  --contacts-write-us-form-button-back: #ff6161;
+  --contacts-write-us-form-button-hover: #ffffff;
+  --contacts-write-us-form-item-back: #333333;
+  --contacts-write-us-form-item-text: #b0b0b0;
+
+  --contacts-block-max-width: 1170px;
+  --contacts-block-min-width: 272px;
+  --contacts-page-max-width: 4000px;
+  --contacts-page-min-width: 350px;
+  
+  --index-handmade-background: #1f1f1f;
+  --index-handmade-title: #ffffff;
+  --index-instagram-background: #1f1f1f;
+  --index-instagram-title: #ffffff;
+  --index-block-max-width: 1170px;
+  --index-block-min-width: 272px;
+  
+  --global-footer-background: #121212;
+  --global-footer-icon: #ff4c4c;
+  
+  --why-us-paragraph-color: #c2c2c2;
+  
+  --blog-main-text-color: #ffffff;
+  --blog-secondary-text-color: #a6a6a6;
+  
+  --great-products-text-title: #ffffff;
+  --great-products-text-description: #c2c2c2;
+  
+  --our-story-first-block-background: #1a1a1a;
+  --our-story-first-block-text: #c2c2c2;
+  --our-story-fifth-block-title-color: #ffffff;
+  
+  --our-story-second-block-lines-color: rgba(255, 255, 255, 0.3);
+  
+  --our-story-third-block-background-color: #1f1f1f;
+  --our-story-third-block-box-shadow: rgba(0, 0, 0, 0.5);
+  --our-story-h3-color: #ffffff;
+  --our-story-h4-color: #b0b0b0;
+  --our-story-p-color: #c2c2c2;
+  
+  --our-story-fifth-block-background-color: #121212;
+  --our-story-fifth-block-h2-color: #ffffff;
+  --our-story-fifth-block-date-color: #ff6161;
+  --our-story-fifth-block-content-h3-color: #e0e0e0;
+  --our-story-fifth-block-content-p-color: #b0b0b0;
+  
+  --personal-order-background-form: #1f1f1f;
+  --personal-order-title-text: #ffffff;
+  --personal-order-subtitle-text: #a6a6a6;
+  --personal-order-form-block: #2a2a2a;
+  --personal-order-form-text: #c2c2c2;
+  --personal-order-form-button-background: #ff4c4c;
+  --personal-order-form-button-text: #ffffff;
+  --personal-order-form-button-hover: #ffffff;
+  
+  --catalog-notebooks-title-text: #ffffff;
+  --catalog-notebooks-element-text: #ffffff;
+  --catalog-notebooks-left-button-border: #ff6161;
+  --catalog-notebooks-left-button-text: #ffffff;
+  --catalog-notebooks-left-button-background-hover: #ff6161;
+  --catalog-notebooks-left-button-text-hover: #ffffff;
+  --catalog-notebooks-right-button-background: #ff6161;
+  --catalog-notebooks-right-button-text: #ffffff;
+  --catalog-notebooks-right-button-text-hover: #ffffff;
+  --catalog-notebooks-right-button-background-hover: #000000;
+  
+  --catalog-bags-left-button-text: #ffffff;
+  --catalog-bags-right-button-text-hover: #000000;
+  --catalog-bags-right-button-background-hover: #ffffff;
+  
+  --support-ukraine-title: #ffffff;
+  --support-ukraine-description: #c2c2c2;
+  --support-ukraine-background: #1f1f1f;
+  --support-ukraine-image: #ffcc33;
+  
+  --awards__title: #ffffff;
+  --button__primary: #ff4c4c;
+  --button__secondary: #ffffff;
+  
+  --requets-button-color: #ff4c4c;
+  --request-title-color: #ffffff;
+  --hover-button-color: #ffffff;
+  --subscribe-background-color: rgba(0, 0, 0, 0.8);
+  --subscribe-background-color-botton: rgba(255, 255, 255, 0.1);
+  
+  --shopping-cart-text: #a6a6a6;
+  --shopping-cart-button: #ffffff;
+  --shopping-cart-accent: #ff6161;
+  --shopping-cart-form-background: rgba(33, 32, 32, 0.5);
+  --shopping-cart-form-outline: #007bff;
+  --shopping-cart-hover: #ffffff;
+  --shopping-cart-icon-background-color: #1f1f1f;
+  --shopping-cart-icon-stroke: #ffffff;
+  --shopping-cart-icon-counter: #ff4c4c;
+  --shopping-cart-dark: rgba(0, 0, 0, 0.7);
+  --shopping-cart-background: #1f1f1f;
+}
+
+/* Основні стилі */
+body {
+  background-color: var(--header-nav-background);
+  color: var(--header-nav-text-menu);
+}
+
 img {
   display: block;
   width: 100%;

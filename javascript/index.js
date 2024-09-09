@@ -5,6 +5,7 @@ function init() {
     import('./global.shopping-cart.js');
     import('./index.stand-with-ukraine.js');
     import('./index.awards.js');
+    import('./dark_theme.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
