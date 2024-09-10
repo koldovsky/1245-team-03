@@ -1,0 +1,93 @@
+.custom-custom-orders {
+    background-color: var(--custom-gift-pack-background-color);
+    text-align: center;
+  }
+.custom-orders-form__image img {
+    width: 100%;
+    height: auto;
+  }
+.custom-orders__form {
+    margin-top: 20px;
+}
+.custom-orders__form h2 {
+    color: var(--gift-packs-custom-gift-pack__form-h2);
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-family: Saira,sans-serif;
+}
+
+.custom-orders__form p {
+    font-size: 17px;
+    color: var(--custom-gift-pack__form-p-color);
+    margin-bottom: 20px;
+    font-family: Merriweather,sans-serif;
+}
+
+.custom-orders__form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.custom-orders__form input,
+.custom-orders__form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.custom-orders__form input::placeholder,
+.custom-orders__form textarea::placeholder {
+  color: #999;
+}
+
+.custom-orders__form button {
+  background-color: var(--custom-gift-pack__form-button-background-color);
+  color: var(--custom-gift-pack__form-button);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-orders__form button:hover {
+  background-color: var(--custom-gift-pack__form-button-submit);
+}
+
+@media (min-width: 768px) {
+  .custom-custom-orders {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .custom-gift-pack__image {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .custom-orders__form {
+    flex: 1;
+    margin-top: 0;
+    padding-left: 20px;
+  }
+
+  .custom-orders__form h2 {
+    font-size: 28px;
+  }
+
+  .custom-orders__form p {
+    font-size: 18px;
+  }
+
+  .custom-orders__form input,
+  .custom-orders__form textarea {
+    font-size: 18px;
+  }
+
+  .custom-orders__form button {
+    font-size: 18px;
+  }
+}
