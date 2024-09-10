@@ -130,8 +130,21 @@
 
   --our-story-first-block-background: #ebebeb;
   --our-story-first-block-text: rgb(89, 84, 82);
+  --our-story-fifth-block-title-color: #ffffff;
 
   --our-story-second-block-lines-color: rgba(255, 255, 255, 0.3);
+
+  --our-story-third-block-background-color: #ebebeb;
+  --our-story-third-block-box-shadow: rgba(0, 0, 0, 0.1);
+  --our-story-h3-color: #212020;
+  --our-story-h4-color: #777777;
+  --our-story-p-color: rgb(89, 84, 82);
+
+  --our-story-fifth-block-background-color: #f1f1f1;
+  --our-story-fifth-block-h2-color: #212121;
+  --our-story-fifth-block-date-color: #c0362c;
+  --our-story-fifth-block-content-h3-color: #333;
+  --our-story-fifth-block-content-p-color: #555;
 
   --personal-order-background-form: #ffffff;
   --personal-order-title-text: #212020;
@@ -152,6 +165,10 @@
   --catalog-notebooks-right-button-text: #ffffff;
   --catalog-notebooks-right-button-text-hover: #ffffff;
   --catalog-notebooks-right-button-background-hover: #000000;
+
+  --catalog-bags-left-button-text: #212020;
+  --catalog-bags-right-button-text-hover: #000000;
+  --catalog-bags-right-button-background-hover: #ffffff;
 
   --support-ukraine-title: #ffffff;
   --support-ukraine-description: #c2c2c2;
@@ -177,10 +194,16 @@
   --shopping-cart-icon-background-color: white;
   --shopping-cart-icon-stroke: #212020;
   --shopping-cart-icon-counter: #e04141;
+  --shopping-cart-dark: rgba(0,0,0,.7);
+  --shopping-cart-background: white;
 
   /*fonts*/
   --title-font-family: "Saira", sans-serif;
   --text-font-family: "Merriweather", serif;
+
+  /*sizes*/
+  --global-section-max-width: 4000px;
+  --global-content-max-width: 1200px;
   scroll-behavior: smooth;
 }
 

@@ -10,6 +10,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
+    max-width: var(--global-content-max-width);
 }
 
 .support-ukraine__header {
@@ -59,6 +63,13 @@
 
 .support-ukraine__button:hover {
     background-color: var(--support-ukraine-description);
+}
+
+.support-ukraine__timer {
+    font-family: var(--text-font-family);
+    font-size: 12px;
+    color: var(--support-ukraine-title);
+    margin: 10px 0;
 }
 
 @media (min-width:1000px) {

@@ -16,12 +16,3 @@ navLinks.addEventListener("click", () => {
     header.classList.remove("nav-visible");
     btnSub.classList.remove("open");
 });
-
-const isClickInsideMenu = header.contains(event.target);
-const isClickInsideButton = btnSub.contains(event.target);
-
-if (!isClickInsideMenu && !isClickInsideButton) {
-    body.classList.remove("overflow-hidden");
-    header.classList.remove("nav-visible");
-    btnSub.classList.remove("open");
-}

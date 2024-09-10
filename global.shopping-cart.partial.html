@@ -1,6 +1,6 @@
-<section class="shopping-cart-wrapper shopping-cart__none">
+<section class="shopping-cart-wrapper">
   <div class="shopping-cart__holder">
-    <div class="shopping-cart__icon-wrapper">
+    <div class="shopping-cart__icon-wrapper shopping-cart__none">
       <svg
         width="22.5"
         height="28.125"
@@ -22,91 +22,93 @@
       <div class="shopping-cart__icon-counter"></div>
     </div>
   </div>
-
-  <div class="shopping-cart shopping-cart__none">
-    <div class="shopping-cart__head">
-      <h2 class="shopping-cart__h2">Shopping cart</h2>
-      <svg
-        width="25"
-        height="25"
-        viewbox="0 0 40 40"
-        class="shopping-cart__svg"
-      >
-        <path
-          d="M 10,10 L 30,30 M 30,10 L 10,30"
-          stroke="black"
-          stroke-width="2.5"
-        />
-      </svg>
-    </div>
-    <div class="shopping-cart-content shopping-cart__none">
-      <div class="shopping-cart__products">
-        <h3 class="shopping-cart__products-heading">Products</h3>
-        <ul class="shopping-cart__products-list"></ul>
+  <div class="shopping-cart__content-wrapper">
+    <div class="shopping-cart shopping-cart__none">
+      <div class="shopping-cart__head">
+        <h2 class="shopping-cart__h2">Shopping cart</h2>
+        <svg
+          width="25"
+          height="25"
+          viewbox="0 0 40 40"
+          class="shopping-cart__svg-close"
+        >
+          <path
+            d="M 10,10 L 30,30 M 30,10 L 10,30"
+            stroke="black"
+            stroke-width="2.5"
+          />
+        </svg>
       </div>
-      <div class="shopping-cart__promo-total">
-        <button class="shopping-cart__promo-button">Promo code</button>
-        <form class="shopping-cart__promo-form shopping-cart__none">
+      <div class="shopping-cart__empty_cart shopping-cart__none">
+        <p>Shopping cart is empty</p>
+        <p>Continue shopping to add product to your cart</p>
+      </div>
+      <div class="shopping-cart__success shopping-cart__none">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
+            fill="#44873B"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M21.9629 34.0716C21.4073 34.6428 20.5078 34.6428 19.9536 34.0716L11.1246 24.9963C10.2918 24.1402 10.2918 22.7524 11.1246 21.8977C11.9573 21.0416 13.3059 21.0416 14.1386 21.8977L20.9582 28.9072L33.8614 15.6421C34.6941 14.786 36.0427 14.786 36.8754 15.6421C37.7082 16.4967 37.7082 17.8846 36.8754 18.7407L21.9629 34.0716Z"
+            fill="white"
+          ></path>
+        </svg>
+        <p>Thank you for your order!</p>
+        <p>We'll get in touch with you soon with further details.</p>
+      </div>
+      <div class="shopping-cart-content shopping-cart__none">
+        <div class="shopping-cart__products">
+          <h3 class="shopping-cart__products-heading">Products</h3>
+          <ul class="shopping-cart__products-list"></ul>
+        </div>
+        <div class="shopping-cart__promo-total">
+          <button class="shopping-cart__promo-button">Promo code</button>
+          <form class="shopping-cart__promo-form shopping-cart__none">
+            <input
+              type="text"
+              placeholder="Enter promo code"
+              class="shopping-cart__promo-form-input"
+            />
+            <p class="shopping-cart__none">Promo code can't be applied</p>
+            <button class="shopping-cart__promo-form-button">OK</button>
+          </form>
+          <span class="shopping-cart__total shopping-cart__total-width-auto"
+            ></span
+          >
+        </div>
+        <h3 class="shopping-cart__place-an-order">Place an order</h3>
+        <form class="shopping-cart__form" novalidate>
+          <label>Name<span> *</span></label>
           <input
             type="text"
-            placeholder="Enter promo code"
-            class="shopping-cart__promo-form-input"
+            placeholder="Your name"
+            class="shopping-cart__form-input shopping-cart__name"
           />
-          <button class="shopping-cart__promo-form-button">OK</button>
+          <label>Email<span> *</span></label>
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="shopping-cart__form-input shopping-cart__mail"
+          />
+          <label>Phone<span> *</span></label>
+          <input
+            type="tel"
+            placeholder="Your phone"
+            class="shopping-cart__form-input shopping-cart__tel"
+          />
+          <label>Comment</label>
+          <textarea
+            placeholder="Your comment"
+            class="shopping-cart__form-input shopping-cart__form-textarea"
+          ></textarea>
+          <button type="submit" class="shopping-cart__form-button">Order</button>
         </form>
-        <span class="shopping-cart__total shopping-cart__total-width-auto"
-          >Total: $</span
-        >
       </div>
-      <h3 class="shopping-cart__place-an-order">Place an order</h3>
-      <form class="shopping-cart__form">
-        <label>Name<span> *</span></label>
-        <input
-          type="text"
-          placeholder="Your name"
-          class="shopping-cart__form-input"
-        />
-        <label>Email<span> *</span></label>
-        <input
-          type="email"
-          placeholder="Your email address"
-          class="shopping-cart__form-input"
-        />
-        <label>Phone<span> *</span></label>
-        <input
-          type="tel"
-          placeholder="Your phone"
-          class="shopping-cart__form-input"
-        />
-        <label>Comment</label>
-        <textarea
-          placeholder="Your comment"
-          class="shopping-cart__form-input shopping-cart__form-textarea"
-        ></textarea>
-        <a href="#" class="shopping-cart__form-a">Order</a>
-      </form>
-    </div>
-    <div class="shopping-cart__empty_cart shopping-cart__none">
-      <p>Shopping cart is empty</p>
-      <p>Continue shopping to add product to your cart</p>
-    </div>
-    <div class="shopping-cart__success shopping-cart__none">
-      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
-          fill="#44873B"
-        ></path>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M21.9629 34.0716C21.4073 34.6428 20.5078 34.6428 19.9536 34.0716L11.1246 24.9963C10.2918 24.1402 10.2918 22.7524 11.1246 21.8977C11.9573 21.0416 13.3059 21.0416 14.1386 21.8977L20.9582 28.9072L33.8614 15.6421C34.6941 14.786 36.0427 14.786 36.8754 15.6421C37.7082 16.4967 37.7082 17.8846 36.8754 18.7407L21.9629 34.0716Z"
-          fill="white"
-        ></path>
-      </svg>
-      <p>Thank you for your order!</p>
-      <p>We'll get in touch with you soon with further details.</p>
     </div>
   </div>
 </section>
